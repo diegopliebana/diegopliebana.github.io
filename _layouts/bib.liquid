@@ -1,5 +1,20 @@
 ---
 ---
+{% capture pub_filter_string %}
+  {{ entry.pubtype }}
+  {{ entry.venue_group }}
+  {{ entry.topics }}
+  {{ entry.keywords }}
+  {{ entry.featured }}
+  {% if entry.selected %} selected {% endif %}
+  {% if entry.year %} year-{{ entry.year }} {{ entry.year }} {% endif %}
+{% endcapture %}
+
+<span class="pub-filter-data d-none">
+  {{ pub_filter_string | downcase | replace: ',', ' ' }}
+</span>
+
+
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">

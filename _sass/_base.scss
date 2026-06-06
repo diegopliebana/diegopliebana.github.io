@@ -1133,3 +1133,47 @@ swiper-container {
   margin-left: 0;
   margin-right: 0;
 }
+
+/* Dynamic publication filters */
+.pub-filter-panel {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+}
+
+#pub-search {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.4rem;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+}
+
+.pub-filter-group {
+  margin-bottom: 0.5rem;
+}
+
+.pub-filter {
+  margin: 0.15rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-theme-color);
+  cursor: pointer;
+}
+
+.pub-filter.active,
+.pub-filter:hover {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
+#pub-filter-status {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
