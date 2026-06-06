@@ -1118,3 +1118,18 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+/* Publications: remove empty left preview/abbr column */
+.publications ol.bibliography li .abbr {
+  display: none !important;
+}
+
+.publications ol.bibliography li .col-sm-8 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.publications ol.bibliography li .row {
+  margin-left: 0;
+  margin-right: 0;
+}
