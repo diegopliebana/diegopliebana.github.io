@@ -9,6 +9,12 @@ nav_order: 2
 
 <div class="publications">
   
+## Selected publications
+
+{% bibliography --query @*[selected=true] %}
+
+## All publications
+
 {% bibliography %}
 
 </div>
