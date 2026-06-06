@@ -21,6 +21,6 @@ I'm a Distinguished Researcher at Unviersity Carlos III de Madrid (Spain), under
 
 My research focuses on Artificial Intelligence for games, tree search, evolutionary computation, and statistical forward planning methods such as Monte Carlo Tree Search and Rolling Horizon Evolutionary Algorithms. I am especially interested in applying these methods to modern video games, tabletop board games, and general game-playing systems.
 
-I have authored more than 150 papers in Game AI, published in leading conferences and journals in computational intelligence, games, and evolutionary computation. I was General Chair of IEEE CoG 2019, and I have helped organize international Game AI competitions including the [Physical Travelling Salesman Competition](http://www.ptsp-game.net) and the [General Video Game AI Competition](http://www.gvgai.net).
+I have authored more than 150 papers in Game AI, published in leading conferences and journals in computational intelligence, games, and evolutionary computation. I was General Chair of IEEE CoG 2019, and I have helped organize international Game AI competitions including the Physical Travelling Salesman Competition and the General Video Game AI Competition.
 
 Before academia, I worked in the videogames industry as a game programmer and software engineer, developing games and AI tools for commercial projects. I now teach modules related to game development and Artificial Intelligence for games.
