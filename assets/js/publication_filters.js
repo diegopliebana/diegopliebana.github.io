@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     items.forEach((item) => {
       const tagText = normalise(item.querySelector(".pub-filter-data")?.innerText);
-      const fullText = normalise(item.innerText);
+      const hiddenText = normalise(item.querySelector(".pub-filter-data")?.innerText);
+      const fullText = normalise(item.innerText + " " + hiddenText);
       const matchesSearch = query === "" || fullText.includes(query);
 
       const matchesFilters =
