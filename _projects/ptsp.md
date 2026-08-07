@@ -131,7 +131,8 @@ Several of these ideas later became the foundation for subsequent work on Genera
 />
 
 
-To reduce overfitting to a fixed collection of maps, the project was later extended with <strong>procedural map generation</strong>.
+To reduce overfitting to a fixed collection of maps, the project was later extended with <strong> procedural map generation</strong>.
+
 
 Evolutionary optimisation techniques were used to automatically generate navigation environments with different structural properties and levels of difficulty. This enabled systematic evaluation of planning algorithms over a much broader range of scenarios than would have been possible using manually designed maps alone.
 
