@@ -2,6 +2,7 @@
 ---
 layout: page
 title: Stratega
+short_title: Stratega
 description: A flexible research framework for Artificial Intelligence in turn-based strategy games.
 
 funding: EPSRC New Investigator Award
