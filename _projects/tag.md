@@ -12,33 +12,46 @@ status: ongoing
 start_year: 2020
 
 github: https://github.com/GAIGResearch/TabletopGames
+
+toc:
+  - title: The Challenge
+    id: challenge
+
+  - title: Core Technologies
+    id: core-technologies
+    children:
+      - title: TAG Framework
+        id: tag-framework
+      - title: Digital Twins
+        id: digital-twins
+      - title: PyTAG
+        id: pytag
+
+  - title: Research Contributions
+    id: research-contributions
+    children:
+      - title: MCTS & Multiplayer
+        id: mcts-tabletop
+      - title: Multiplayer Objectives
+        id: multiplayer-objectives
+      - title: Skill & Randomness
+        id: skill-randomness
+      - title: AI-assisted Design
+        id: ai-assisted-design
+      - title: LLMs & Program Search
+        id: llms
+
+  - title: Tabletop R&D
+    id: tabletop-rnd
+
+  - title: Resources
+    id: resources
+
+  - title: Ongoing Work
+    id: ongoing-work
 ---
 
-<nav class="project-toc" aria-label="TAG page navigation">
-  <div class="project-toc-title">On this page</div>
-
-  <a href="#challenge">The Challenge</a>
-
-  <a href="#core-technologies">Core Technologies</a>
-  <div class="project-toc-sub">
-    <a href="#tag-framework">TAG Framework</a>
-    <a href="#digital-twins">Digital Twins</a>
-    <a href="#pytag">PyTAG</a>
-  </div>
-
-  <a href="#research-contributions">Research Contributions</a>
-  <div class="project-toc-sub">
-    <a href="#mcts-tabletop">MCTS & Multiplayer Games</a>
-    <a href="#multiplayer-objectives">Multiplayer Objectives</a>
-    <a href="#skill-randomness">Skill & Randomness</a>
-    <a href="#ai-assisted-design">AI-assisted Design</a>
-    <a href="#llms">LLMs & Program Search</a>
-  </div>
-
-  <a href="#tabletop-rnd">Tabletop R&D</a>
-  <a href="#resources">Resources</a>
-  <a href="#ongoing-work">Ongoing Work</a>
-</nav>
+{% include project_toc.liquid %}
 
 # Tabletop Games Framework (TAG)
 
