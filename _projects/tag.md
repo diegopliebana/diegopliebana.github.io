@@ -14,7 +14,7 @@ start_year: 2020
 github: https://github.com/GAIGResearch/TabletopGames
 ---
 
-# Tabletop Games Framework (TAG)
+# TAG
 
 *2020–Present*
 
