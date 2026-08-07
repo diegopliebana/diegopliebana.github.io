@@ -69,7 +69,7 @@ One of GVGAI's major research contributions has been establishing **Statistical 
 
 <p>
 
-The framework provides a forward model that allows agents to simulate future game states before selecting actions. This enabled extensive research into **Monte Carlo Tree Search**, **Rolling Horizon Evolutionary Algorithms**, **Portfolio Search**, **heuristic search**, and numerous hybrid planning approaches.
+The framework provides a forward model that allows agents to simulate future game states before selecting actions. This enabled extensive research into <strong>Monte Carlo Tree Search</strong>, <strong>Rolling Horizon Evolutionary Algorithms</strong>, <strong>Portfolio Search</strong>, <strong>heuristic search</strong>, and numerous hybrid planning approaches.
 
 </p>
 
@@ -91,9 +91,9 @@ Many planning algorithms developed and evaluated within GVGAI later influenced r
 
 <div class="col-sm-8">
  
-To complement planning-based research, GVGAI introduced a **Learning Track**, where agents no longer have access to a forward model and must instead learn exclusively through interaction with the environment.
+To complement planning-based research, GVGAI introduced a <strong>Learning Track</strong>, where agents no longer have access to a forward model and must instead learn exclusively through interaction with the environment.
 
-This extension created a benchmark for **general reinforcement learning**, encouraging the development of algorithms capable of transferring knowledge across many different games while maintaining the benchmark's emphasis on generalisation.
+This extension created a benchmark for <strong>general reinforcement learning</strong>, encouraging the development of algorithms capable of transferring knowledge across many different games while maintaining the benchmark's emphasis on generalisation.
 
 </div>
 
@@ -121,7 +121,7 @@ style="width:100%;"
 
 <p>
 
-GVGAI was later expanded with several **Procedural Content Generation (PCG)** competitions covering level generation, rule generation, and automatic game design.
+GVGAI was later expanded with several <strong>Procedural Content Generation (PCG)</strong> competitions covering level generation, rule generation, and automatic game design.
 
 </p>
 
