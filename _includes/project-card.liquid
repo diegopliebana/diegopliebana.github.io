@@ -1,0 +1,35 @@
+<div class="project-card-item">
+  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="card hoverable">
+      {% if project.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=project.img
+          sizes="350px"
+          alt="project thumbnail"
+        %}
+      {% endif %}
+
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">
+          {{ project.short_title | default: project.title }}
+        </h2>
+
+        <p class="card-text">{{ project.description }}</p>
+
+        <div class="row ml-1 mr-1 p-0 project-card-footer">
+          {% if project.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ project.github }}">
+                  <i class="fa-brands fa-github gh-icon"></i>
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
