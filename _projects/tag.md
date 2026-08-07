@@ -130,41 +130,44 @@ style="width:100%;"
 
 ---
 
+```markdown
 # Research Contributions
 
-TAG has enabled a substantial body of research that goes beyond the implementation of the framework itself. In particular, a sequence of studies led by James Goodman has used the diversity of TAG games to investigate how AI algorithms interact with the structure of modern tabletop games and how automated play can provide useful information to both researchers and designers.
+TAG has supported a substantial body of research beyond the development of the framework itself. A major strand of this work has been <strong>led by James Goodman</strong>, whose research has used TAG's diverse collection of tabletop games to investigate Monte Carlo Tree Search, multiplayer decision making, quantitative characterisation of games, skill and randomness, and AI-assisted game design.
+
+This research treats TAG not simply as a collection of benchmarks, but as an experimental laboratory in which the interaction between Artificial Intelligence algorithms and the properties of modern tabletop games can be studied systematically.
 
 ### Monte Carlo Tree Search for Multiplayer Tabletop Games
 
 Modern tabletop games present several challenges to conventional <strong>Monte Carlo Tree Search (MCTS)</strong>. Many have more than two players, hidden information, stochastic events and simultaneous or partially simultaneous decisions. The assumptions that work well in two-player deterministic games therefore do not necessarily transfer directly.
 
-Research in TAG has investigated how MCTS behaves across games with very different characteristics and how its internal choices should adapt to those environments.
+A line of research <strong>led by James Goodman</strong> has investigated how MCTS behaves across games with very different characteristics and how its internal choices should adapt to those environments.
 
-<strong>Fingerprinting Tabletop Games</strong> introduced the idea of characterising a game using the results of repeated optimisation of MCTS parameters. Rather than reporting only one optimal parameter configuration, the distribution of successful parameter values forms a "fingerprint" of the game. This makes it possible to identify which aspects of MCTS are particularly important for a game and revealed, importantly, that the algorithmic characteristics of a game can change as its number of players changes.
+In <em>Fingerprinting Tabletop Games</em>, Goodman and colleagues introduced the idea of characterising a game using the results of repeated optimisation of MCTS parameters. Rather than reporting only a single optimal parameter configuration, the distribution of successful parameter values forms a "fingerprint" of the game. This provides information about which aspects of MCTS are particularly important for different games and showed, importantly, that the algorithmic characteristics of a game can change as its number of players changes.
 
-This idea was subsequently expanded in <strong>Visualising Multiplayer Game Spaces</strong>, which compared different ways of embedding games into a common feature space. MCTS-derived features proved particularly useful for interpreting characteristics such as imperfect information, adversarial interaction and reward sparsity, providing a way of understanding similarities and differences between games from the perspective of the algorithms used to play them.
+Goodman subsequently extended this direction in <em>Visualising Multiplayer Game Spaces</em>, comparing different ways of embedding tabletop games into a common feature space. MCTS-derived features were used to expose similarities and differences between games from the perspective of the algorithms used to play them, including characteristics associated with imperfect information, adversarial interaction and reward structure.
 
-The research also produced new MCTS variants. <strong>MultiTree MCTS</strong> constructs an independent search tree for each player instead of representing all players in one common tree. Experiments across eleven tabletop games showed particular benefits in simultaneous-move games, where independent trees better reflect the underlying information structure.
+The same research programme also produced <strong>MultiTree MCTS</strong>. Rather than representing all players inside a single search tree, MultiTree maintains a separate tree for each player. Experiments across a diverse set of TAG games showed that this representation can be particularly useful in simultaneous-action environments, where separate trees provide a more natural representation of the information available to each player.
 
-Together, these studies use TAG not simply as a collection of benchmarks, but as an experimental laboratory for understanding <strong>when and why different planning approaches work</strong>.
+Together, this body of work demonstrates how TAG can be used not only to evaluate planning algorithms, but also to understand <strong>why particular forms of search work better in particular kinds of tabletop games</strong>.
 
 ---
 
 ### Objectives and Decision Making in Multiplayer Games
 
-Moving from two-player to multiplayer games also raises a more fundamental question: <strong>what should an agent optimise?</strong>
+Moving from two-player to multiplayer games raises a more fundamental question: <strong>what should an AI agent optimise?</strong>
 
-In a two-player zero-sum game, maximising the probability of winning provides a natural objective. In multiplayer tabletop games, an agent may instead have access to game score, relative ranking, distance to the leading player and other intermediate signals.
+In a two-player zero-sum game, maximising the probability of winning provides a natural objective. Multiplayer tabletop games provide many other potentially useful signals, including absolute score, relative score, ranking and the performance of competing players.
 
-The work on <strong>Following the Leader in Multiplayer Tabletop Games</strong> investigated several game-agnostic objectives across TAG games. The results showed that different games benefit from different approaches. In some cases focusing on an agent's own score is useful, while in others explicitly tracking the strongest opponent provides a more effective signal.
+In <em>Following the Leader in Multiplayer Tabletop Games</em>, <strong>James Goodman and colleagues</strong> investigated several game-agnostic objectives across TAG games. The study examined how agents should use information about their own performance and that of their opponents when making decisions in multiplayer environments.
 
-This research illustrates an important property of the TAG programme: the diversity of games exposes assumptions in standard AI algorithms that can remain hidden when experiments are conducted on a single benchmark.
+The results showed that there is no universally superior objective across all games. In some environments an agent can benefit from concentrating on its own progress, while in others explicitly accounting for the strongest opponent provides a better decision signal.
+
+This work illustrates one of the benefits of a framework such as TAG: evaluating an idea across a diverse collection of games can expose assumptions that may remain hidden when an algorithm is tested on only one or two domains.
 
 ---
 
 ### Characterising Games through Skill and Randomness
-
-A second major research theme has been the quantitative analysis of the games themselves.
 
 <img
 src="{{ '/assets/img/projects/tag/analytics.png' | relative_url }}"
@@ -172,15 +175,17 @@ alt="Analysis of tabletop games"
 style="width:100%; margin-bottom:1rem;"
 />
 
-Tabletop designers deliberately use randomness to create variety, uncertainty and replayability. Too little randomness can make repeated games predictable, while too much may overwhelm meaningful player decisions. Measuring this balance objectively is difficult.
+A further research direction <strong>led by James Goodman</strong> has focused on quantitatively characterising tabletop games themselves, rather than treating games solely as environments in which to measure AI performance.
 
-<strong>Measuring Randomness in Tabletop Games</strong> introduced a method for estimating how much stochastic elements contribute to variation in game outcomes. Experiments across fifteen tabletop games showed that the approach can separate the contribution of different random mechanisms — such as card shuffles, setup or dice rolls — rather than treating randomness as a single property of a game.
+Two particularly important concepts are <strong>skill</strong> and <strong>randomness</strong>. Tabletop designers deliberately use stochastic mechanisms to create uncertainty, variety and replayability, but the extent to which these mechanisms influence game outcomes is difficult to quantify. Similarly, designers and players frequently describe games as requiring more or less skill, but measuring the depth of skill expressed by a game is not straightforward.
 
-Complementary work on <strong>Skill Depth in Tabletop Board Games</strong> investigated how much player skill a game can express. Instead of rating players, the objective is to characterise the game itself by examining how performance changes as increasingly capable agents are used.
+In <em>Measuring Randomness in Tabletop Games</em>, Goodman and colleagues developed methods for estimating the contribution of stochastic elements to variation in game outcomes. Because experiments can manipulate individual random seeds and mechanisms inside TAG, the analysis can investigate the effects of different sources of randomness rather than treating chance as a single undifferentiated property.
 
-These strands were brought together in <strong>Seeding for Success: Skill and Stochasticity in Tabletop Games</strong>. This work analyses the interaction between player strength and stochasticity and examines how the inherent randomness of a game affects the interpretation of experimental results.
+In <em>Skill Depth in Tabletop Board Games</em>, Goodman and colleagues approached the complementary problem of quantifying the extent to which increasing player capability translates into improved performance. The objective is not merely to rank individual agents, but to use artificial players of different strengths to investigate the capacity of the game itself to express differences in skill.
 
-Together, these methods provide quantitative tools for reasoning about questions normally described informally by players and designers: How skill-dependent is a game? How much does luck influence its outcome? Which random mechanisms matter most? How confident can we be that an observed advantage is real rather than statistical noise?
+These ideas were subsequently brought together in <em>Seeding for Success: Skill and Stochasticity in Tabletop Games</em>, where <strong>Goodman, Perez-Liebana and Lucas</strong> studied the interaction between player skill and stochasticity and its implications for experimental evaluation.
+
+Taken together, this work provides quantitative tools for addressing questions that are often discussed informally by players and designers: How much does skill matter? How much influence does luck have on the result? Which sources of randomness are most important? And how many games are required before an observed performance difference can be considered meaningful?
 
 ---
 
@@ -192,31 +197,31 @@ Together, these methods provide quantitative tools for reasoning about questions
 
 <p>
 
-TAG has also enabled research in which Artificial Intelligence is used not merely to play completed games, but to <strong>assist designers during development</strong>.
+Another important strand of research <strong>led by James Goodman</strong> has investigated how Artificial Intelligence can support tabletop game designers during development rather than merely play finished games.
 
 </p>
 
 <p>
 
-A detailed case study followed successive iterations of an analogue board game while AI agents were used alongside conventional human playtesting. The work examined the types of questions a designer asks during development and how automated play can provide evidence to help answer them.
+In <em>A Case Study in AI-Assisted Board Game Design</em>, Goodman and colleagues followed the development of an analogue board game while incorporating automated AI playtesting alongside conventional human playtesting. The study examined the kinds of questions that arise during iterative game design and how large-scale simulation can provide additional evidence to help designers answer them.
 
 </p>
 
 <p>
 
-The resulting workflow is explicitly <strong>designer-in-the-loop</strong>. Designers formulate questions about their game; AI agents generate large quantities of gameplay data; relevant metrics are extracted; and the results are interpreted together with observations from human playtesting.
+The resulting approach is explicitly <strong>designer-in-the-loop</strong>. The designer determines which aspects of a game need investigation; AI agents generate large quantities of gameplay data; appropriate metrics are extracted from those simulations; and the results are interpreted together with evidence obtained from human playtesting.
 
 </p>
 
 <p>
 
-The study showed that AI testing is most useful as a complement to human testing rather than a replacement for it. In particular, automated results can give designers confidence to make changes more quickly when AI evidence supports patterns already suggested by human play.
+A central conclusion of this work is that automated playtesting should <strong>complement rather than replace human playtesting</strong>. Artificial Intelligence is particularly valuable for questions that benefit from large numbers of repeated games and quantitative analysis, while human players remain essential for evaluating subjective qualities such as enjoyment, clarity, engagement and theme.
 
 </p>
 
 <p>
 
-This work established a direct bridge between TAG as an academic research platform and its later application to commercial game development.
+This James Goodman-led research established an important bridge between the academic work conducted with TAG and the subsequent practical application of automated playtesting and game analysis in Tabletop R&D.
 
 </p>
 
@@ -233,6 +238,7 @@ style="width:100%;"
 </div>
 
 </div>
+```
 
 ---
 
@@ -306,7 +312,7 @@ style="width:100%;"
 
 👉 <a href="https://github.com/GAIGResearch/TabletopGames">TAG GitHub repository</a>
 
-👉 <a href="https://github.com/GAIGResearch/PyTAG">PyTAG GitHub repository</a>
+👉 <a href="https://github.com/martinballa/PyTAG">PyTAG GitHub repository</a>
 
 ---
 
