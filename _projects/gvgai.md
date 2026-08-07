@@ -1,23 +1,6 @@
 ---
 layout: page
 title: General Video Game Artificial Intelligence (GVGAI)
-description: A framework and international competition for benchmarking AI agents, procedural content generation, and automated game design.
-
-img: assets/img/projects/gvgai/cover.png
-
-importance: 20
-
-status: completed
-
-start_year: 2013
-end_year: 2019
-
-github: https://github.com/GAIGResearch/GVGAI
----
-
----
-layout: page
-title: General Video Game Artificial Intelligence (GVGAI)
 description: A benchmark framework and international competition for General Artificial Intelligence in games.
 
 img: assets/img/projects/gvgai/cover.png
@@ -70,7 +53,11 @@ The framework is based on the **Video Game Description Language (VGDL)**, allowi
 
 <div class="row">
 
-<div class="col-sm-8">
+<img
+src="{{ '/assets/img/projects/gvgai/planning.png' | relative_url }}"
+alt="Statistical Forward Planning"
+style="width:100%;"
+/>
 
 <p>
 
@@ -90,17 +77,6 @@ Many planning algorithms developed and evaluated within GVGAI later influenced r
 
 </p>
 
-</div>
-
-<div class="col-sm-4">
-
-<img
-src="{{ '/assets/img/projects/gvgai/planning.png' | relative_url }}"
-alt="Statistical Forward Planning"
-style="width:100%;"
-/>
-
-</div>
 
 </div>
 
@@ -108,23 +84,38 @@ style="width:100%;"
 
 ### Learning without Forward Models
 
-<img
+
+<div class="row">
+
+<div class="col-sm-8">
+ 
+To complement planning-based research, GVGAI introduced a **Learning Track**, where agents no longer have access to a forward model and must instead learn exclusively through interaction with the environment.
+
+This extension created a benchmark for **general reinforcement learning**, encouraging the development of algorithms capable of transferring knowledge across many different games while maintaining the benchmark's emphasis on generalisation.
+
+</div>
+
+<div class="col-sm-8">
+
+ <img
 src="{{ '/assets/img/projects/gvgai/learning.png' | relative_url }}"
 alt="Learning Track"
 style="width:100%; margin-bottom:1rem;"
 />
 
-To complement planning-based research, GVGAI introduced a **Learning Track**, where agents no longer have access to a forward model and must instead learn exclusively through interaction with the environment.
+</div>
 
-This extension created a benchmark for **general reinforcement learning**, encouraging the development of algorithms capable of transferring knowledge across many different games while maintaining the benchmark's emphasis on generalisation.
+</div>
 
 ---
 
 ### Procedural Content Generation
 
-<div class="row">
-
-<div class="col-sm-8">
+<img
+src="{{ '/assets/img/projects/gvgai/pcg.png' | relative_url }}"
+alt="Procedural Content Generation"
+style="width:100%;"
+/>
 
 <p>
 
@@ -144,19 +135,7 @@ The framework has since become one of the main benchmarks for procedural content
 
 </p>
 
-</div>
 
-<div class="col-sm-4">
-
-<img
-src="{{ '/assets/img/projects/gvgai/pcg.png' | relative_url }}"
-alt="Procedural Content Generation"
-style="width:100%;"
-/>
-
-</div>
-
-</div>
 
 ---
 
@@ -165,7 +144,7 @@ style="width:100%;"
 <img
 src="{{ '/assets/img/projects/gvgai/education.png' | relative_url }}"
 alt="GVGAI Education"
-style="width:100%; margin-bottom:1rem;"
+style="width:80%; margin-bottom:1rem;"
 />
 
 Thanks to its lightweight Java implementation, open-source codebase and accessible architecture, GVGAI has become an important educational resource.
