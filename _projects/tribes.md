@@ -94,7 +94,7 @@ The project investigated how Statistical Forward Planning algorithms such as Mon
   Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), <strong>16(1)</strong>, pp. 252–258, 2020.  
   👉 [PDF]({{ '/assets/pdf/papers/TribesAIIDE20.pdf' | relative_url }}) · <a href="https://doi.org/10.1609/aiide.v16i1.7438">DOI</a>
 
-- 📄 <strong>D. Perez-Liebana, C. Guerrero-Romero, A. Dockhorn, L. Xu and D. Jeurissen.</strong>  
+- 📄 <strong>D. Perez-Liebana, C. Guerrero-Romero, A. Dockhorn, L. Xu, D. Jeurissen and J. Hurtado.</strong>  
   <em>Generating Diverse and Competitive Play-Styles for Strategy Games.</em>  
   Proceedings of the IEEE Conference on Games (CoG), 2021.  
   👉 [PDF]({{ '/assets/pdf/papers/MapElitesTribesCoG2021.pdf' | relative_url }}) · <a href="https://arxiv.org/abs/2104.08641">arXiv</a>
