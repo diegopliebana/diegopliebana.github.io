@@ -14,7 +14,6 @@ end_year: 2014
 
 github: https://github.com/diegopliebana/ptsp-so
 ---
-<div class="project-content" markdown="1">
   
 # Physical Travelling Salesman Problem
 
@@ -206,5 +205,3 @@ The PTSP project resulted in a sequence of publications covering the benchmark i
 Many of the ideas first explored in PTSP—including macro-actions, statistical forward planning, benchmark competitions, and forward model design—were later extended in subsequent projects such as General Video Game AI (GVGAI), Stratega, and TAG (Tabletop Games Framework).
 
 In this sense, PTSP represents the starting point of a research programme on AI planning in games that has continued to evolve over the past decade.
-
-</div>
