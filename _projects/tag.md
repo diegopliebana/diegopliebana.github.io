@@ -17,7 +17,7 @@ github: https://github.com/GAIGResearch/TabletopGames
 toc:
 
   - title: TAG
-    id: TAG
+    id: top
     
   - title: The Challenge
     id: challenge
@@ -56,10 +56,11 @@ toc:
     id: ongoing-work
 ---
 
-{% include project_toc.liquid %}
+<div id="top"></div>
 
+# Tabletop Games Framework (TAG)
 
-<h1 id="TAG">Tabletop Games Framework (TAG)</h1>
+{% include project_toc.liquid %>
 
 *2020–Present*
 
@@ -133,35 +134,14 @@ The important objective is not to replace human playtesting. Human players remai
 
 <div class="row">
 
-<div class="col-sm-7">
-
-<p>
-
+<div class="col-sm-7" markdown="1">
 <strong>PyTAG</strong> extends the TAG ecosystem to Reinforcement Learning by providing a Python interface to games implemented in the Java framework.
-
-</p>
-
-<p>
-
 Modern tabletop games create interesting challenges for <strong>Multi-Agent Reinforcement Learning</strong>: observations and action spaces can vary substantially between games, legal actions are highly state-dependent, rewards are often sparse, episodes can be long, and agents must operate in stochastic and partially observable multiplayer environments.
-
-</p>
-
-<p>
-
 PyTAG provides access to this diversity through interfaces compatible with modern Python-based learning workflows. This makes it possible to train Reinforcement Learning agents through self-play and to compare learned policies directly against planning algorithms such as Monte Carlo Tree Search using the same underlying game implementations.
-
-</p>
-
-<p>
-
 The result is a common experimental platform connecting two research traditions that are often investigated separately: search-based planning and Reinforcement Learning.
-
-</p>
-
 </div>
 
-<div class="col-sm-5">
+<div class="col-sm-5" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/tag/pytag.png' | relative_url }}"
@@ -237,41 +217,15 @@ Taken together, this work provides quantitative tools for addressing questions t
 
 <div class="row">
 
-<div class="col-sm-7">
-
-<p>
-
+<div class="col-sm-7" markdown="1">
 Another important strand of research <strong>led by James Goodman</strong> has investigated how Artificial Intelligence can support tabletop game designers during development rather than merely play finished games.
-
-</p>
-
-<p>
-
 In <em>A Case Study in AI-Assisted Board Game Design</em>, Goodman and colleagues followed the development of an analogue board game while incorporating automated AI playtesting alongside conventional human playtesting. The study examined the kinds of questions that arise during iterative game design and how large-scale simulation can provide additional evidence to help designers answer them.
-
-</p>
-
-<p>
-
 The resulting approach is explicitly <strong>designer-in-the-loop</strong>. The designer determines which aspects of a game need investigation; AI agents generate large quantities of gameplay data; appropriate metrics are extracted from those simulations; and the results are interpreted together with evidence obtained from human playtesting.
-
-</p>
-
-<p>
-
 A central conclusion of this work is that automated playtesting should <strong>complement rather than replace human playtesting</strong>. Artificial Intelligence is particularly valuable for questions that benefit from large numbers of repeated games and quantitative analysis, while human players remain essential for evaluating subjective qualities such as enjoyment, clarity, engagement and theme.
-
-</p>
-
-<p>
-
 This James Goodman-led research established an important bridge between the academic work conducted with TAG and the subsequent practical application of automated playtesting and game analysis in Tabletop R&D.
-
-</p>
-
 </div>
 
-<div class="col-sm-5">
+<div class="col-sm-5" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/tag/gamedesign.png' | relative_url }}"
@@ -299,41 +253,15 @@ This direction expands the role of TAG again: from evaluating hand-designed plan
 
 <div class="row">
 
-<div class="col-sm-7">
-
-<p>
-
+<div class="col-sm-7" markdown="1">
 The research programme around TAG ultimately led to the creation of <strong>Tabletop R&D</strong>, a Queen Mary University of London spin-out company focused on AI-assisted playtesting and quantitative game analysis.
-
-</p>
-
-<p>
-
 Tabletop R&D builds digital twins of commercial tabletop games and uses automated agents to simulate thousands of games in minutes. The resulting gameplay data can be analysed to answer specific questions from designers and publishers, including game balance, scoring, strategy strength, player-order effects, card usage, action frequencies and victory conditions.
-
-</p>
-
-<p>
-
 The objective is to supplement rather than replace traditional playtesting. Automated simulation is particularly useful for questions requiring large numbers of repetitions, while human playtesters remain central to evaluating subjective qualities such as enjoyment, clarity, theme and engagement.
-
-</p>
-
-<p>
-
 This commercial application demonstrates a direct pathway from research infrastructure and Game AI algorithms to practical tools for the creative industries.
-
-</p>
-
-<p>
-
 👉 <a href="https://www.tabletoprnd.co.uk/">Tabletop R&D website</a>
-
-</p>
-
 </div>
 
-<div class="col-sm-5">
+<div class="col-sm-5" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/tag/tabletoprnd.png' | relative_url }}"
