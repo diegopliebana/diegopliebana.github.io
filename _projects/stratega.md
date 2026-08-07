@@ -116,9 +116,11 @@ These methods demonstrated that carefully designed algorithm portfolios can outp
 
 <h3 id="elastic-mcts">Elastic Monte Carlo Tree Search</h3>
 
-<div class="row">
-
-<div class="col-sm-8">
+<img
+src="{{ '/assets/img/projects/stratega/elastic.png' | relative_url }}"
+alt="Elastic Monte Carlo Tree Search"
+style="width:100%;"
+/>
 
 <p>
 
@@ -144,19 +146,7 @@ The work was evaluated across strategy-game environments in Stratega and became 
 
 </p>
 
-</div>
 
-<div class="col-sm-4">
-
-<img
-src="{{ '/assets/img/projects/stratega/elastic.png' | relative_url }}"
-alt="Elastic Monte Carlo Tree Search"
-style="width:100%;"
-/>
-
-</div>
-
-</div>
 
 ---
 
