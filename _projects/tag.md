@@ -130,7 +130,6 @@ style="width:100%;"
 
 ---
 
-```markdown
 # Research Contributions
 
 TAG has supported a substantial body of research beyond the development of the framework itself. A major strand of this work has been <strong>led by James Goodman</strong>, whose research has used TAG's diverse collection of tabletop games to investigate Monte Carlo Tree Search, multiplayer decision making, quantitative characterisation of games, skill and randomness, and AI-assisted game design.
