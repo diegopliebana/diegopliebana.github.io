@@ -14,6 +14,32 @@ start_year: 2020
 github: https://github.com/GAIGResearch/TabletopGames
 ---
 
+<nav class="project-toc" aria-label="TAG page navigation">
+  <div class="project-toc-title">On this page</div>
+
+  <a href="#challenge">The Challenge</a>
+
+  <a href="#core-technologies">Core Technologies</a>
+  <div class="project-toc-sub">
+    <a href="#tag-framework">TAG Framework</a>
+    <a href="#digital-twins">Digital Twins</a>
+    <a href="#pytag">PyTAG</a>
+  </div>
+
+  <a href="#research-contributions">Research Contributions</a>
+  <div class="project-toc-sub">
+    <a href="#mcts-tabletop">MCTS & Multiplayer Games</a>
+    <a href="#multiplayer-objectives">Multiplayer Objectives</a>
+    <a href="#skill-randomness">Skill & Randomness</a>
+    <a href="#ai-assisted-design">AI-assisted Design</a>
+    <a href="#llms">LLMs & Program Search</a>
+  </div>
+
+  <a href="#tabletop-rnd">Tabletop R&D</a>
+  <a href="#resources">Resources</a>
+  <a href="#ongoing-work">Ongoing Work</a>
+</nav>
+
 # Tabletop Games Framework (TAG)
 
 *2020–Present*
@@ -28,7 +54,7 @@ The same underlying technology has also moved beyond academic research through <
 
 ---
 
-# The Challenge of Modern Tabletop Games
+<h1 id="challenge">The Challenge of Modern Tabletop Games</h1>
 
 <img
 src="{{ '/assets/img/projects/tag/challenge.png' | relative_url }}"
@@ -48,9 +74,9 @@ TAG was created to make this rich class of games systematically accessible to Ar
 
 ---
 
-# Core Technologies
+<h1 id="core-technologies">Core Technologies</h1>
 
-### A Unified Framework for Modern Tabletop Games
+<h3 id="tag-framework">A Unified Framework for Modern Tabletop Games</h3>
 
 <img
 src="{{ '/assets/img/projects/tag/framework.png' | relative_url }}"
@@ -68,7 +94,7 @@ This separation between <strong>game implementation</strong>, <strong>AI agents<
 
 ---
 
-### Digital Twins for Tabletop Games
+<h3 id="digital-twins">Digital Twins for Tabletop Games</h3>
 
 <img
 src="{{ '/assets/img/projects/tag/digitaltwins.png' | relative_url }}"
@@ -84,7 +110,7 @@ The important objective is not to replace human playtesting. Human players remai
 
 ---
 
-### Reinforcement Learning with PyTAG
+<h3 id="pytag">Reinforcement Learning with PyTAG</h3>
 
 <div class="row">
 
@@ -130,13 +156,13 @@ style="width:100%;"
 
 ---
 
-# Research Contributions
+<h1 id="research-contributions">Research Contributions</h1>
 
 TAG has supported a substantial body of research beyond the development of the framework itself. A major strand of this work has been <strong>led by James Goodman</strong>, whose research has used TAG's diverse collection of tabletop games to investigate Monte Carlo Tree Search, multiplayer decision making, quantitative characterisation of games, skill and randomness, and AI-assisted game design.
 
 This research treats TAG not simply as a collection of benchmarks, but as an experimental laboratory in which the interaction between Artificial Intelligence algorithms and the properties of modern tabletop games can be studied systematically.
 
-### Monte Carlo Tree Search for Multiplayer Tabletop Games
+<h3 id="mcts-tabletop">Monte Carlo Tree Search for Multiplayer Tabletop Games</h3>
 
 Modern tabletop games present several challenges to conventional <strong>Monte Carlo Tree Search (MCTS)</strong>. Many have more than two players, hidden information, stochastic events and simultaneous or partially simultaneous decisions. The assumptions that work well in two-player deterministic games therefore do not necessarily transfer directly.
 
@@ -152,7 +178,7 @@ Together, this body of work demonstrates how TAG can be used not only to evaluat
 
 ---
 
-### Objectives and Decision Making in Multiplayer Games
+<h3 id="multiplayer-objectives">Objectives and Decision Making in Multiplayer Games</h3>
 
 Moving from two-player to multiplayer games raises a more fundamental question: <strong>what should an AI agent optimise?</strong>
 
@@ -166,7 +192,7 @@ This work illustrates one of the benefits of a framework such as TAG: evaluating
 
 ---
 
-### Characterising Games through Skill and Randomness
+<h3 id="skill-randomness">Characterising Games through Skill and Randomness</h3>
 
 <img
 src="{{ '/assets/img/projects/tag/analytics.png' | relative_url }}"
@@ -188,7 +214,7 @@ Taken together, this work provides quantitative tools for addressing questions t
 
 ---
 
-### AI-assisted Game Design
+<h3 id="ai-assisted-design">AI-assisted Game Design</h3>
 
 <div class="row">
 
@@ -240,7 +266,7 @@ style="width:100%;"
 
 ---
 
-### Emerging Research: Large Language Models and Automated Agents
+<h3 id="llms">Emerging Research: Large Language Models and Automated Agents</h3>
 
 TAG continues to provide a testbed for new forms of Artificial Intelligence.
 
@@ -250,7 +276,7 @@ This direction expands the role of TAG again: from evaluating hand-designed plan
 
 ---
 
-# Tabletop R&D
+<h1 id="tabletop-rnd">Tabletop R&D</h1>
 
 <div class="row">
 
@@ -302,7 +328,7 @@ style="width:100%;"
 
 ---
 
-# Resources
+<h1 id="resources">Resources</h1>
 
 ### Software
 
@@ -382,7 +408,7 @@ style="width:100%;"
 
 ---
 
-# Ongoing Work
+<h1 id="ongoing-work">Ongoing Work</h1>
 
 TAG remains an active research project.
 
@@ -393,4 +419,4 @@ The diversity of the game library is increasingly important. Rather than treatin
 At the same time, Tabletop R&D provides a route through which methods originally developed for academic experimentation can be evaluated against practical questions posed by professional game designers and publishers.
 
 Together, these activities make TAG both a research framework and a bridge between <strong>Game AI research</strong>, <strong>game design</strong> and <strong>the tabletop games industry</strong>.
-```
+
