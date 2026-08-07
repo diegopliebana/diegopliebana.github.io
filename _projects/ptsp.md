@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Physical Travelling Salesman Problem (PTSP)
+short_title: PTSP
 description: A benchmark environment and competition for real-time planning and Monte Carlo Tree Search.
 
 img: assets/img/projects/ptsp/cover.png
