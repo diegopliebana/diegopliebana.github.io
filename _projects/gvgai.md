@@ -27,6 +27,13 @@ Originally developed at the University of Essex, GVGAI has evolved into one of t
 
 # Summary
 
+
+<img
+src="{{ '/assets/img/projects/gvgai/gameplay.png' | relative_url }}"
+alt="GVGAI games"
+style="width:100%; margin-bottom:1rem;"
+/>
+
 GVGAI was created with the goal of moving Game AI research beyond domain-specific benchmarks. By providing a common software framework together with a large and diverse collection of games, the framework enables researchers to compare algorithms under identical experimental conditions while encouraging the development of agents capable of generalising across many different environments.
 
 The framework has evolved considerably over the years, expanding from a planning competition into a complete research ecosystem including reinforcement learning, procedural content generation, automated game design, educational activities, and community competitions.
@@ -37,11 +44,6 @@ The framework has evolved considerably over the years, expanding from a planning
 
 ### General Video Game Playing
 
-<img
-src="{{ '/assets/img/projects/gvgai/gameplay.png' | relative_url }}"
-alt="GVGAI games"
-style="width:100%; margin-bottom:1rem;"
-/>
 
 GVGAI introduced one of the first benchmark environments specifically designed for **General Video Game Playing**. Unlike traditional Game AI research, which often focuses on a single game, GVGAI evaluates an agent's ability to perform well across a large collection of games featuring different mechanics, objectives, dynamics and visual styles.
 
