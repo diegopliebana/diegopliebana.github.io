@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Distinguished Researcher, University Carlos III de Madrid (Spain)
 
