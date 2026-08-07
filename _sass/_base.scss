@@ -1256,70 +1256,87 @@ swiper-container {
 }
 
 /* Uniform project cards */
+
 .projects .project-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
   align-items: stretch;
+  margin-bottom: 2rem;
 }
 
-/* projects.liquid emits grid-sizer elements for the original Masonry layout */
-.projects .project-card-grid .grid-sizer {
-  display: none;
-}
-
-.projects .project-card-grid .grid-item {
-  width: auto;
-  margin: 0;
+.projects .project-card-item {
+  min-width: 0;
   height: 100%;
 }
 
-.projects .project-card-grid .grid-item > a {
+.projects .project-card-item > a {
   display: block;
   height: 100%;
+  text-decoration: none;
 }
 
-.projects .project-card-grid .card {
+.projects .project-card-item .card {
   display: flex;
   flex-direction: column;
   height: 100%;
   overflow: hidden;
 }
 
-/* Identical image area for every card */
-.projects .project-card-grid .card img {
+.projects .project-card-item .card figure,
+.projects .project-card-item .card picture {
+  display: block;
   width: 100%;
   height: 180px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.projects .project-card-item .card img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  max-width: none;
   object-fit: cover;
   object-position: center;
 }
 
-/* Card text fills remaining space */
-.projects .project-card-grid .card-body {
+.projects .project-card-item .card-body {
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-direction: column;
 }
 
-/* Reserve equal title space */
-.projects .project-card-grid .card-title {
+.projects .project-card-item .card-title {
   min-height: 3rem;
   margin-bottom: 0.75rem;
 }
 
-/* Limit descriptions to three lines */
-.projects .project-card-grid .card-text {
+.projects .project-card-item .card-text {
+  display: -webkit-box;
   min-height: 4.5rem;
   margin-bottom: 1rem;
-
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
   overflow: hidden;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
-/* Keep GitHub icon at bottom */
-.projects .project-card-grid .card-body > .row {
+.projects .project-card-footer {
   margin-top: auto;
+}
+
+/* Two columns on tablets */
+@media (max-width: 991px) {
+  .projects .project-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* One column on phones */
+@media (max-width: 575px) {
+  .projects .project-card-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
