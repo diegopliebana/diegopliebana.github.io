@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: page
 title: Tabletop Games Framework (TAG)
