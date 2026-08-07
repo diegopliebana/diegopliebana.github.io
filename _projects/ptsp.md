@@ -150,7 +150,7 @@ The PTSP project is fully open source and remains available for researchers inte
   - Competition framework
   - Benchmark maps
 
-**Software:** 👉 [PTSP framework and competition code on GitHub](https://github.com/diegopliebana/ptsp-so)
+👉 [GitHub repository](https://github.com/diegopliebana/ptsp-so)
 
 ### Publications
 
