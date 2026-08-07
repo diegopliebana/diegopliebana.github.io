@@ -45,8 +45,12 @@ Its influence extended to several international competitions, numerous publicati
 </div>
 
 <div class="col-sm-5">
-
-![Gameplay](/assets/img/projects/ptsp/gameplay.png){: width="100%" }
+  
+<img
+  src="{{ '/assets/img/projects/ptsp/gameplay.png' | relative_url }}"
+  alt="PTSP gameplay"
+  style="width: 100%;"
+/>
 
 </div>
 
@@ -81,8 +85,11 @@ This combination made PTSP substantially more challenging than traditional path-
 
 <div class="col-sm-4" markdown="1">
 
-![PTSP Gameplay]({{ '/assets/img/projects/ptsp/gameplay2.png' | relative_url }}){: width="100%" }
-
+<img
+  src="{{ '/assets/img/projects/ptsp/gameplay2.png' | relative_url }}"
+  alt="PTSP gameplay"
+  style="width: 100%;"
+/>
 
 </div>
 
@@ -105,8 +112,12 @@ Several of these ideas later became the foundation for subsequent work on Genera
 </div>
 
 <div class="col-sm-4">
-
-![Macro-actions]({{ '/assets/img/projects/ptsp/mcts.png' | relative_url }}){: width="100%" }
+  
+<img
+  src="{{ '/assets/img/projects/ptsp/mcts.png' | relative_url }}"
+  alt="Monte Carlo Tree Search and macro-actions in PTSP"
+  style="width: 100%;"
+/>
 
 </div>
 
@@ -129,8 +140,12 @@ The resulting benchmark generator became one of the earliest examples of using p
 </div>
 
 <div class="col-sm-4">
-
-![Procedural map generation]({{ '/assets/img/projects/ptsp/map_generation.png' | relative_url }}){: width="100%" }
+  
+<img
+  src="{{ '/assets/img/projects/ptsp/map_generation.png' | relative_url }}"
+  alt="Procedurally generated PTSP maps"
+  style="width: 100%;"
+/>
 
 </div>
 
