@@ -104,29 +104,13 @@ Many planning algorithms developed and evaluated within GVGAI later influenced r
 
 <div class="row">
 
-<div class="col-sm-7">
-
-<p>
-
+<div class="col-sm-7" markdown="1">
 To complement planning-based research, GVGAI introduced a <strong>Learning Track</strong>, where agents no longer have access to a forward model and must instead learn exclusively through interaction with the environment.
-
-</p>
-
-<p>
-
 This extension created a benchmark for <strong>general reinforcement learning</strong>, encouraging the development of algorithms capable of learning across many different games while maintaining the benchmark's emphasis on generalisation.
-
-</p>
-
-<p>
-
 Removing the forward model substantially changed the nature of the challenge: agents could no longer explicitly simulate future states and instead had to acquire useful representations and behaviour through experience.
-
-</p>
-
 </div>
 
-<div class="col-sm-5">
+<div class="col-sm-5" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/gvgai/learning.png' | relative_url }}"
