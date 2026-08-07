@@ -13,8 +13,6 @@ start_year: 2011
 end_year: 2014
 
 github: https://github.com/diegopliebana/ptsp-so
-
-redirect: https://github.com/diegopliebana/ptsp-so
 ---
 
 # Physical Travelling Salesman Problem
