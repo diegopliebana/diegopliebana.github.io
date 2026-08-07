@@ -31,7 +31,11 @@ PTSP was developed during my PhD at the University of Essex and became the basis
 
 <div class="row">
 
-<div class="col-sm-7">
+<img
+  src="{{ '/assets/img/projects/ptsp/gameplay.png' | relative_url }}"
+  alt="PTSP gameplay"
+  style="width: 100%;"
+/>
 
 The <strong>Physical Travelling Salesman Problem (PTSP)</strong> is a benchmark for real-time planning that combines route optimisation, continuous control and obstacle avoidance.
 
@@ -41,17 +45,6 @@ Developed during my PhD at the University of Essex, PTSP became one of the first
 
 Its influence extended to several international competitions, numerous publications, and later benchmark frameworks such as GVGAI, Stratega and TAG.
 
-</div>
-
-<div class="col-sm-5">
-  
-<img
-  src="{{ '/assets/img/projects/ptsp/gameplay.png' | relative_url }}"
-  alt="PTSP gameplay"
-  style="width: 100%;"
-/>
-
-</div>
 
 </div>
 ---
@@ -74,15 +67,26 @@ The PTSP project resulted in several methodological contributions that later inf
 
 <div class="row" markdown="1">
 
+<div class="row">
+
+<div class="col-sm-7">
+
+  Unlike classical optimisation benchmarks, PTSP combines <strong>global route optimisation</strong> with <strong>continuous low-level control</strong>. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
+
+This combination made PTSP substantially more challenging than traditional path-planning problems while remaining computationally lightweight enough to support thousands of simulations during search.
+
+</div>
+  
+<div class="col-sm-5">
 <img
   src="{{ '/assets/img/projects/ptsp/gameplay2.png' | relative_url }}"
   alt="PTSP gameplay"
   style="width: 100%;"
 />
 
-Unlike classical optimisation benchmarks, PTSP combines <strong>global route optimisation</strong> with <strong>continuous low-level control</strong>. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
+</div>
 
-This combination made PTSP substantially more challenging than traditional path-planning problems while remaining computationally lightweight enough to support thousands of simulations during search.
+</div>
 
 </div>
 
