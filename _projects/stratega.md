@@ -211,6 +211,6 @@ Stratega was developed as the primary software platform supporting this research
 
 # Legacy
 
-Stratega represents the culmination of several years of research on General Game Playing and Statistical Forward Planning. Building upon ideas first explored in PTSP and GVGAI, the framework shifted the focus from benchmark environments towards highly configurable research infrastructure capable of supporting many different classes of games.
+Stratega represents the principal outcome of the EPSRC New Investigator Award on <strong>Abstract Forward Models</strong>. Building upon ideas first explored in PTSP and GVGAI, the project shifted the emphasis from benchmark environments towards reusable research infrastructure capable of supporting a broad spectrum of strategy games.
 
 Many of the ideas developed within Stratega directly influenced subsequent projects including TAG, PyTAG, tabletop game research, and recent work on Artificial Intelligence for modern board games.
