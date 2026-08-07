@@ -159,11 +159,11 @@ The repository includes:
 
 ### Funding
 
-👉 **EPSRC New Investigator Award**
+👉 <strong>EPSRC New Investigator Award</strong>
 
-**Abstract Forward Models for Artificial Intelligence in Games**
+<strong>Abstract Forward Models for Artificial Intelligence in Games</strong>
 
-Grant reference: **EP/T008962/1**
+Grant reference: <strong>EP/T008962/1</strong>
 
 Stratega was developed as the primary software platform supporting this research programme.
 
