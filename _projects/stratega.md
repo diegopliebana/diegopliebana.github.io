@@ -121,33 +121,10 @@ src="{{ '/assets/img/projects/stratega/elastic.png' | relative_url }}"
 alt="Elastic Monte Carlo Tree Search"
 style="width:100%;"
 />
-
-<p>
-
 One of the main methodological contributions developed within Stratega is <strong>Elastic Monte Carlo Tree Search (Elastic MCTS)</strong>.
-
-</p>
-
-<p>
-
 This work, led by <strong>Linjie Xu</strong> with Alexander Dockhorn and Diego Perez-Liebana, investigates how abstraction can be dynamically adapted during Monte Carlo Tree Search. Instead of using a single fixed representation throughout search, Elastic MCTS can operate at different levels of abstraction and progressively refine the representation when additional detail becomes useful.
-
-</p>
-
-<p>
-
 The approach addresses an important tension in planning: abstract representations can make search substantially more efficient, but excessive abstraction may discard strategically important information. Elastic MCTS provides a mechanism for balancing these competing requirements during search.
-
-</p>
-
-<p>
-
 The work was evaluated across strategy-game environments in Stratega and became the basis of a broader research programme on state and action abstraction for General Strategy Game Playing.
-
-</p>
-
-
-
 ---
 
 <h3 id="configurable-rules">Configurable Rule System</h3>
