@@ -22,7 +22,7 @@ The <strong>Tabletop Games Framework (TAG)</strong> is an open-source research p
 
 TAG provides a common software architecture in which games are implemented once and exposed through a unified interface to Artificial Intelligence algorithms. This makes it possible to investigate planning, optimisation, reinforcement learning, game analysis and automated playtesting across a diverse collection of games without developing a bespoke research environment for every experiment.
 
-Since its introduction in 2020, TAG has grown from a framework containing a small collection of games into a substantial research ecosystem. It now supports dozens of tabletop games and has enabled research on Monte Carlo Tree Search, multiplayer decision making, game characterisation, skill and randomness, Reinforcement Learning, AI-assisted game design and Large Language Models.
+Since its introduction in 2020, TAG has grown from a framework containing a small collection of games into a substantial research ecosystem. It now supports dozens of tabletop games and has enabled several distinct research programmes, including a major body of work led by <strong>James Goodman</strong> on Monte Carlo Tree Search, multiplayer game analysis, skill and randomness, and AI-assisted game design, alongside research on Reinforcement Learning, automated game balancing and Large Language Models.
 
 The same underlying technology has also moved beyond academic research through <strong>Tabletop R&D</strong>, a Queen Mary University of London spin-out applying automated simulation and game analysis to commercial tabletop game development.
 
@@ -318,44 +318,44 @@ style="width:100%;"
 
 ### Key Publications
 
-- <strong>R. D. Gaina, M. Balla, A. Dockhorn, R. Montoliu and D. Perez-Liebana.</strong>  
+- 📄 <strong>R. D. Gaina, M. Balla, A. Dockhorn, R. Montoliu and D. Perez-Liebana.</strong>  
   <em>TAG: A Tabletop Games Framework.</em>  
   Experimental AI in Games (EXAG), AIIDE 2020 Workshop, 2020.  
   👉 <a href="{{ '/assets/pdf/papers/TAG_Tabletop_Games_Framework.pdf' | relative_url }}">PDF</a>
 
-- <strong>J. Goodman, S. M. Lucas and D. Perez-Liebana.</strong>  
+- 📄 <strong>J. Goodman, S. M. Lucas and D. Perez-Liebana.</strong>  
   <em>Fingerprinting Tabletop Games.</em>  
   Proceedings of the IEEE Conference on Games (CoG), pp. 1–4, 2021.  
   👉 <a href="{{ '/assets/pdf/papers/FingerprintingCoG2021.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1109/CoG52621.2021.9619089">DOI</a>
 
-- <strong>J. Goodman, D. Perez-Liebana and S. M. Lucas.</strong>  
+- 📄 <strong>J. Goodman, D. Perez-Liebana and S. M. Lucas.</strong>  
   <em>Visualising Multiplayer Game Spaces.</em>  
   IEEE Transactions on Games, 2022.  
   👉 <a href="{{ '/assets/pdf/papers/VisualizingSpaces-ToG22.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1109/TG.2021.3138561">DOI</a>
 
-- <strong>J. Goodman, D. Perez-Liebana and S. M. Lucas.</strong>  
+- 📄 <strong>J. Goodman, D. Perez-Liebana and S. M. Lucas.</strong>  
   <em>MultiTree MCTS in Tabletop Games.</em>  
   Proceedings of the IEEE Conference on Games (CoG), pp. 292–299, 2022.  
   👉 <a href="{{ '/assets/pdf/papers/MultitreeMCTSTabletop-CoG22.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1109/CoG51982.2022.9893605">DOI</a>
 
-- <strong>J. Goodman, A. Wallat, D. Perez-Liebana and S. M. Lucas.</strong>  
+- 📄 <strong>J. Goodman, A. Wallat, D. Perez-Liebana and S. M. Lucas.</strong>  
   <em>A Case Study in AI-Assisted Board Game Design.</em>  
   Proceedings of the IEEE Conference on Games (CoG), pp. 1–4, 2023.  
   👉 <a href="{{ '/assets/pdf/papers/CaseStudyTAG-CoG23.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1109/CoG57401.2023.10333138">DOI</a>
 
-- <strong>M. Balla, G. E. M. Long, J. Goodman, R. D. Gaina and D. Perez-Liebana.</strong>  
+- 📄 <strong>M. Balla, G. E. M. Long, J. Goodman, R. D. Gaina and D. Perez-Liebana.</strong>  
   <em>PyTAG: Tabletop Games for Multi-Agent Reinforcement Learning.</em>  
   IEEE Transactions on Games, pp. 1–10, 2024.  
   👉 <a href="{{ '/assets/pdf/papers/PyTAG-ToG24.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1109/TG.2024.3404133">DOI</a>
 
-- <strong>J. Goodman, D. Perez-Liebana and S. M. Lucas.</strong>  
+- 📄 <strong>J. Goodman, D. Perez-Liebana and S. M. Lucas.</strong>  
   <em>Seeding for Success: Skill and Stochasticity in Tabletop Games.</em>  
   IEEE Transactions on Games, 2025.  
   👉 <a href="{{ '/assets/pdf/papers/SeedingForSuccess-TOG25.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1109/TG.2025.3542263">DOI</a>
 
 ---
 
-### Other Publications
+#### Other Publications
 
 - <strong>R. D. Gaina, J. Goodman and D. Perez-Liebana.</strong>  
   <em>TAG: Terraforming Mars.</em>  
