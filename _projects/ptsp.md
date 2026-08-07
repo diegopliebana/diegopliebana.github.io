@@ -74,23 +74,15 @@ The PTSP project resulted in several methodological contributions that later inf
 
 <div class="row" markdown="1">
 
-<div class="col-sm-8" markdown="1">
-
-Unlike classical optimisation benchmarks, PTSP combines **global route optimisation** with **continuous low-level control**. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
-
-This combination made PTSP substantially more challenging than traditional path-planning problems while remaining computationally lightweight enough to support thousands of simulations during search.
-
-</div>
-
-<div class="col-sm-4" markdown="1">
-
 <img
   src="{{ '/assets/img/projects/ptsp/gameplay2.png' | relative_url }}"
   alt="PTSP gameplay"
   style="width: 100%;"
 />
 
-</div>
+Unlike classical optimisation benchmarks, PTSP combines **global route optimisation** with **continuous low-level control**. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
+
+This combination made PTSP substantially more challenging than traditional path-planning problems while remaining computationally lightweight enough to support thousands of simulations during search.
 
 </div>
 
@@ -127,18 +119,6 @@ Several of these ideas later became the foundation for subsequent work on Genera
 ### Procedural Generation of Benchmark Maps
 
 <div class="row">
-
-<div class="col-sm-8">
-
-To reduce overfitting to a fixed collection of maps, the project was later extended with **procedural map generation**.
-
-Evolutionary optimisation techniques were used to automatically generate navigation environments with different structural properties and levels of difficulty. This enabled systematic evaluation of planning algorithms over a much broader range of scenarios than would have been possible using manually designed maps alone.
-
-The resulting benchmark generator became one of the earliest examples of using procedural content generation to support AI benchmarking rather than entertainment.
-
-</div>
-
-<div class="col-sm-4">
   
 <img
   src="{{ '/assets/img/projects/ptsp/map_generation.png' | relative_url }}"
@@ -146,7 +126,14 @@ The resulting benchmark generator became one of the earliest examples of using p
   style="width: 100%;"
 />
 
-</div>
+
+To reduce overfitting to a fixed collection of maps, the project was later extended with **procedural map generation**.
+
+Evolutionary optimisation techniques were used to automatically generate navigation environments with different structural properties and levels of difficulty. This enabled systematic evaluation of planning algorithms over a much broader range of scenarios than would have been possible using manually designed maps alone.
+
+The resulting benchmark generator became one of the earliest examples of using procedural content generation to support AI benchmarking rather than entertainment.
+
+
 
 </div>
 
