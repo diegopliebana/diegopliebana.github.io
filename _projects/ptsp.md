@@ -61,7 +61,7 @@ The competitions attracted submissions from researchers working on Monte Carlo T
 
 ## Research Contributions
 
-The PTSP project resulted in several methodological contributions that later influenced research on statistical forward planning, Monte Carlo Tree Search, and General Video Game AI.
+The PTSP project resulted in several methodological contributions that influenced subsequent research on statistical forward planning, Monte Carlo Tree Search, multi-objective optimisation, procedural content generation, and, ultimately, later benchmark frameworks such as General Video Game AI (GVGAI) and Stratega.
 
 ### A benchmark for real-time planning
 
@@ -119,6 +119,51 @@ Several of these ideas later became the foundation for subsequent work on Genera
 </div>
 
 ---
+### Multi-objective Optimisation
+
+<div class="row">
+
+<div class="col-sm-8">
+
+<p>
+
+The PTSP benchmark was later extended into a <strong>multi-objective optimisation</strong> problem, where agents were required to optimise several conflicting objectives simultaneously rather than simply minimising completion time.
+
+</p>
+
+<p>
+
+In addition to visiting all waypoints as quickly as possible, controllers were evaluated according to criteria such as <strong>fuel consumption</strong>, <strong>damage sustained</strong>, and overall route efficiency. This transformed PTSP from a single-objective planning benchmark into a richer decision-making environment representative of many real-world optimisation problems.
+
+</p>
+
+<p>
+
+This extension motivated the development of <strong>Multi-Objective Monte Carlo Tree Search (MO-MCTS)</strong>, an adaptation of MCTS capable of balancing competing objectives during search without requiring them to be combined into a single scalar reward. The resulting algorithms demonstrated that statistical forward planning could be effectively applied to multi-objective optimisation, while also providing valuable insights into the trade-offs between different planning strategies.
+
+</p>
+
+<p>
+
+The benchmark also formed the basis of the <strong>Multi-Objective Physical Travelling Salesman Problem Competition</strong>, encouraging the Game AI community to investigate planning algorithms capable of handling multiple conflicting objectives under real-time constraints.
+
+</p>
+
+</div>
+
+<div class="col-sm-4">
+
+<img
+  src="{{ '/assets/img/projects/ptsp/mo-ptsp.png' | relative_url }}"
+  alt="Multi-objective PTSP and MO-MCTS"
+  style="width: 100%;"
+/>
+
+</div>
+
+</div>
+
+---
 
 ### Procedural Generation of Benchmark Maps
 
@@ -158,19 +203,31 @@ The PTSP project is fully open source and remains available for researchers inte
 
 👉 [GitHub repository](https://github.com/diegopliebana/ptsp-so)
 
-### Publications
+### Key Publications
 
 The PTSP project resulted in a sequence of publications covering the benchmark itself, competition design, Monte Carlo Tree Search, macro-actions, multi-objective optimisation, and procedural generation of benchmark maps.
 
-- **D. Perez-Liebana, E. J. Powley, D. Whitehouse, P. Rohlfshagen, S. Samothrakis, P. I. Cowling and S. M. Lucas.**  
+- 📄 **D. Perez-Liebana, E. J. Powley, D. Whitehouse, P. Rohlfshagen, S. Samothrakis, P. I. Cowling and S. M. Lucas.**  
   *Solving the Physical Travelling Salesman Problem: Tree Search and Macro Actions.*  
   IEEE Transactions on Computational Intelligence and AI in Games, **6(1)**, pp. 31–45, 2014.  
-  [PDF]({{ '/assets/pdf/papers/PTSP_TCIAIG2013.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2013.2263884)
+  👉 [PDF]({{ '/assets/pdf/papers/PTSP_TCIAIG2013.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2013.2263884)
 
-- **D. Perez-Liebana, J. Togelius, S. Samothrakis, P. Rohlfshagen and S. M. Lucas.**  
+- 📄 **D. Perez-Liebana, J. Togelius, S. Samothrakis, P. Rohlfshagen and S. M. Lucas.**  
   *Automated Map Generation for the Physical Travelling Salesman Problem.*  
   IEEE Transactions on Evolutionary Computation, **18(5)**, pp. 708–720, 2014.  
-  [PDF]({{ '/assets/pdf/papers/MOPTSPGen_TEVC2013.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TEVC.2013.2281508)
+  👉 [PDF]({{ '/assets/pdf/papers/MOPTSPGen_TEVC2013.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TEVC.2013.2281508)
+  
+- 📄 **D. Perez-Liebana, P. Rohlfshagen and S. M. Lucas.**  
+  *Monte Carlo Tree Search: Long-term versus Short-term Planning.*  
+  IEEE Conference on Computational Intelligence and Games (CIG), pp. 219–226, 2012. **Best Paper Award.**  
+  👉 [PDF]({{ '/assets/pdf/papers/LongTermShortTerm.pdf' | relative_url }})
+
+- 📄 **D. Perez-Liebana, S. Samothrakis, P. Rohlfshagen and S. M. Lucas.**  
+  *Multi-objective Monte Carlo Tree Search for Real-Time Games.*  
+  Proceedings of the **IEEE Congress on Evolutionary Computation (CEC)**, pp. 2322–2329, 2014.  
+  👉 [PDF]({{ '/assets/pdf/papers/MOMCTS_CEC2014.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/CEC.2014.6900244)
+
+#### Other Publications
 
 - **D. Perez-Liebana, E. J. Powley, D. Whitehouse, S. Samothrakis, S. M. Lucas and P. I. Cowling.**  
   *The 2013 Multi-Objective Physical Travelling Salesman Problem Competition.*  
@@ -187,10 +244,6 @@ The PTSP project resulted in a sequence of publications covering the benchmark i
   EvoApplications 2012, Lecture Notes in Computer Science **7248**, pp. 255–264, Springer, 2012.  
   [PDF]({{ '/assets/pdf/papers/MCTS_PTSP.pdf' | relative_url }})
 
-- **D. Perez-Liebana, P. Rohlfshagen and S. M. Lucas.**  
-  *Monte Carlo Tree Search: Long-term versus Short-term Planning.*  
-  IEEE Conference on Computational Intelligence and Games (CIG), pp. 219–226, 2012. **Best Paper Award.**  
-  [PDF]({{ '/assets/pdf/papers/LongTermShortTerm.pdf' | relative_url }})
 
 ## Legacy
 
