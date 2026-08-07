@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tabletop Games Framework (TAG)
+short_title: TAG
 description: A research framework for Artificial Intelligence in modern tabletop games.
 
 img: assets/img/projects/tag/cover.png
