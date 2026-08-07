@@ -1,6 +1,7 @@
 ---
 layout: page
 title: General Video Game Artificial Intelligence (GVGAI)
+short_title: GVGAI
 description: A benchmark framework and international competition for General Artificial Intelligence in games.
 
 img: assets/img/projects/gvgai/cover.png
