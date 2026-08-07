@@ -420,3 +420,5 @@ At the same time, Tabletop R&D provides a route through which methods originally
 
 Together, these activities make TAG both a research framework and a bridge between <strong>Game AI research</strong>, <strong>game design</strong> and <strong>the tabletop games industry</strong>.
 
+
+<script src="{{ '/assets/js/project_toc.js' | relative_url }}"></script>
