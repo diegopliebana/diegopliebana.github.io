@@ -15,7 +15,7 @@ end_year: 2019
 github: https://github.com/GAIGResearch/GVGAI
 
 toc:
-  - title: Top
+  - title: GVGAI
     id: top
 
   - title: Summary
