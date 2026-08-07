@@ -30,7 +30,7 @@ Unlike benchmark environments designed around a fixed collection of games, Strat
 
 Stratega was created to provide a modern research platform capable of supporting a wide range of turn-based games without requiring a new engine for every project.
 
-The framework combines a generic game engine with a configurable rule system, enabling researchers to define games, experiment with different AI techniques, and benchmark algorithms within a common software architecture. It has supported research on Statistical Forward Planning, Monte Carlo Tree Search, Rolling Horizon Evolutionary Algorithms, reinforcement learning, procedural content generation, and tabletop games.
+The framework combines a generic game engine with a configurable rule system, enabling researchers to define games, experiment with different AI techniques, and benchmark algorithms within a common software architecture. Research conducted using Stratega has led to advances in <strong>Elastic Monte Carlo Tree Search</strong>, <strong>Portfolio Search</strong>, reinforcement learning, procedural content generation, and AI for tabletop games.
 
 ---
 
@@ -50,57 +50,21 @@ The framework significantly reduces the engineering effort required to investiga
 
 ---
 
-### Statistical Forward Planning
-
-<div class="row">
-
-<div class="col-sm-8">
-
-<p>
-
-Stratega has been extensively used for research on <strong>Statistical Forward Planning</strong>, providing deterministic forward models that enable planning algorithms to simulate future game states before selecting actions.
-
-</p>
-
-<p>
-
-The framework supports a broad family of search algorithms including <strong>Monte Carlo Tree Search</strong>, <strong>Rolling Horizon Evolutionary Algorithms</strong>, heuristic search, portfolio methods and hybrid planning approaches.
-
-</p>
-
-<p>
-
-Its modular architecture allows researchers to compare algorithms across multiple games using a common experimental framework.
-
-</p>
-
-</div>
-
-<div class="col-sm-4">
+### Portfolio Search and Optimisation
 
 <img
-src="{{ '/assets/img/projects/stratega/planning.png' | relative_url }}"
-alt="Planning"
-style="width:100%;"
-/>
-
-</div>
-
-</div>
-
----
-
-### Configurable Rule System
-
-<img
-src="{{ '/assets/img/projects/stratega/rules.png' | relative_url }}"
-alt="Rule system"
+src="{{ '/assets/img/projects/stratega/portfolio.png' | relative_url }}"
+alt="Portfolio Search and Optimisation"
 style="width:100%; margin-bottom:1rem;"
 />
 
-One of Stratega's defining features is its configurable rule system. Rather than implementing each game independently, game mechanics are described through reusable components and configuration files, making it possible to prototype new games rapidly while maintaining reproducibility across experiments.
+Rather than relying on a single planning algorithm, Stratega enabled the development of <strong>Portfolio Search</strong>, an approach that combines multiple search algorithms into a single adaptive decision-making framework.
 
-This flexibility has enabled the framework to support games with very different mechanics while preserving a unified programming interface for AI agents.
+Different planning methods often excel under different game characteristics. While Monte Carlo Tree Search may perform well in some situations, Rolling Horizon Evolutionary Algorithms, heuristic search, or greedy approaches can be more effective in others. Portfolio Search investigates how these complementary algorithms can be combined and automatically selected to improve overall performance across a diverse collection of strategy games.
+
+Building on this idea, the project introduced techniques for <strong>automatically optimising planning portfolios</strong>. Rather than manually selecting which algorithms should be included, optimisation methods search the space of possible portfolios to identify combinations that maximise performance across multiple games while remaining computationally efficient.
+
+These methods demonstrated that carefully designed algorithm portfolios consistently outperform individual planning algorithms, providing a practical route towards more robust and general game-playing agents. More broadly, this work showed that the future of General Game Playing may lie not in discovering a single universally superior algorithm, but in intelligently combining multiple complementary approaches.
 
 ---
 
@@ -147,6 +111,20 @@ style="width:100%;"
 </div>
 
 </div>
+
+---
+
+### Configurable Rule System
+
+<img
+src="{{ '/assets/img/projects/stratega/rules.png' | relative_url }}"
+alt="Rule system"
+style="width:100%; margin-bottom:1rem;"
+/>
+
+One of Stratega's defining features is its configurable rule system. Rather than implementing each game independently, game mechanics are described through reusable components and configuration files, making it possible to prototype new games rapidly while maintaining reproducibility across experiments.
+
+This flexibility has enabled the framework to support games with very different mechanics while preserving a unified programming interface for AI agents.
 
 ---
 
