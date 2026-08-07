@@ -197,7 +197,7 @@ Stratega was developed as the primary software platform supporting this research
 - <strong>L. Xu, J. Hurtado-Grueso, D. Jeurissen, A. Dockhorn and D. Perez-Liebana.</strong>  
   <em>Elastic Monte Carlo Tree Search with State Abstraction for Strategy Game Playing.</em>  
   Proceedings of the IEEE Conference on Games (CoG), 2022.  
-  👉 [PDF]({{ '/assets/pdf/papers/ElasticStateAbstraction-CoG22.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/ElasticMCTS-CoG22.pdf' | relative_url }})
 
 - <strong>L. Xu, A. Dockhorn and D. Perez-Liebana.</strong>  
   <em>Strategy Game-Playing with Size-Constrained State Abstraction.</em>  
