@@ -105,7 +105,7 @@ The PTSP project resulted in several methodological contributions that influence
 
 <div class="row">
 
-<div class="col-sm-7">
+<div class="col-sm-7" markdown="1">
 
 Unlike classical optimisation benchmarks, PTSP combines <strong>global route optimisation</strong> with <strong>continuous low-level control</strong>. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
 
@@ -113,7 +113,7 @@ This combination made PTSP substantially more challenging than traditional path-
 
 </div>
 
-<div class="col-sm-5">
+<div class="col-sm-5" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/ptsp/gameplay2.png' | relative_url }}"
@@ -131,7 +131,7 @@ style="width:100%;"
 
 <div class="row">
 
-<div class="col-sm-8">
+<div class="col-sm-8" markdown="1">
 
 PTSP became one of the first benchmark environments used to investigate <strong>Monte Carlo Tree Search (MCTS)</strong> in continuous real-time games.
 
@@ -141,7 +141,7 @@ Several of these ideas later became the foundation for subsequent work on Genera
 
 </div>
 
-<div class="col-sm-4">
+<div class="col-sm-4" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/ptsp/mcts.png' | relative_url }}"
@@ -159,35 +159,14 @@ style="width:100%;"
 
 <div class="row">
 
-<div class="col-sm-8">
-
-<p>
-
+<div class="col-sm-8" markdown="1">
 The PTSP benchmark was later extended into a <strong>multi-objective optimisation</strong> problem, where agents were required to optimise several conflicting objectives simultaneously rather than simply minimising completion time.
-
-</p>
-
-<p>
-
 In addition to visiting all waypoints as quickly as possible, controllers were evaluated according to criteria such as <strong>fuel consumption</strong>, <strong>damage sustained</strong>, and overall route efficiency. This transformed PTSP from a single-objective planning benchmark into a richer decision-making environment representative of many real-world optimisation problems.
-
-</p>
-
-<p>
-
 This extension motivated the development of <strong>Multi-Objective Monte Carlo Tree Search (MO-MCTS)</strong>, an adaptation of MCTS capable of balancing competing objectives during search without requiring them to be combined into a single scalar reward. The resulting algorithms demonstrated that statistical forward planning could be effectively applied to multi-objective optimisation, while also providing valuable insights into the trade-offs between different planning strategies.
-
-</p>
-
-<p>
-
 The benchmark also formed the basis of the <strong>Multi-Objective Physical Travelling Salesman Problem Competition</strong>, encouraging the Game AI community to investigate planning algorithms capable of handling multiple conflicting objectives under real-time constraints.
-
-</p>
-
 </div>
 
-<div class="col-sm-4">
+<div class="col-sm-4" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/ptsp/mo-ptsp.png' | relative_url }}"
