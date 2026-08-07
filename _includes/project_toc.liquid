@@ -1,0 +1,15 @@
+<nav class="project-toc" aria-label="Project page navigation">
+  <div class="project-toc-title">On this page</div>
+
+  {% for item in page.toc %}
+    <a href="#{{ item.id }}">{{ item.title }}</a>
+
+    {% if item.children %}
+      <div class="project-toc-sub">
+        {% for child in item.children %}
+          <a href="#{{ child.id }}">{{ child.title }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</nav>
