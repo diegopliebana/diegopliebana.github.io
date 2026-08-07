@@ -164,7 +164,7 @@ Stratega was developed as the primary software platform supporting this research
 - 📄 <strong>L. Xu, A. Dockhorn and D. Perez-Liebana.</strong>  
   <em>Elastic Monte Carlo Tree Search.</em>  
   IEEE Transactions on Games, <strong>15(4)</strong>, pp. 527–537, 2023.  
-  👉 [PDF]({{ '/assets/pdf/papers/ElasticMCTS-TOG23.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/ElasticMCTS-ToG23.pdf' | relative_url }})
 
 - 📄 <strong>L. Xu, A. Dockhorn and D. Perez-Liebana.</strong>  
   <em>Towards Applicable State Abstractions: A Preview in Strategy Games.</em>  
@@ -174,17 +174,17 @@ Stratega was developed as the primary software platform supporting this research
 - 📄 <strong>A. Dockhorn, J. Hurtado-Grueso, D. Jeurissen, L. Xu and D. Perez-Liebana.</strong>  
   <em>Game State and Action Abstracting Monte Carlo Tree Search for General Strategy Game-Playing.</em>  
   Proceedings of the IEEE Conference on Games (CoG), 2021.  
-  👉 [PDF]({{ '/assets/pdf/papers/StateActionAbstraction-CoG21.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/GameStateActionAbstractionCoG2021.pdf' | relative_url }})
 
 - 📄< strong>G. Long, S. Samothrakis and D. Perez-Liebana.</strong>  
   <em>STEP: A Framework for Automated Point Cost Estimation.</em>  
   IEEE Transactions on Games, 2024.  
-  👉 [PDF]({{ '/assets/pdf/papers/STEP-TOG24.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/STEP-ToG24.pdf' | relative_url }})
 
 - 📄 <strong>A. Dockhorn, J. Hurtado-Grueso, D. Jeurissen and D. Perez-Liebana.</strong>  
-  <em>Stratega: A General Strategy Games Framework.</em>  
+  <em>Stratega - A General Strategy Games Framework.</em>  
   AIIDE-20 Workshop on Artificial Intelligence for Strategy Games, 2020.  
-  👉 [PDF]({{ '/assets/pdf/papers/Stratega-AIIDE20.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/StrategaAIIDE2020.pdf' | relative_url }})
 
 
 #### Other Publications
