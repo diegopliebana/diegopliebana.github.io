@@ -10,7 +10,7 @@ importance: 20
 status: completed
 
 start_year: 2013
-end_year: 2024
+end_year: 2019
 
 github: https://github.com/GAIGResearch/GVGAI
 ---
@@ -193,20 +193,43 @@ The repository contains:
 
 ### Key Publications
 
-- **D. Perez-Liebana, J. Liu, A. Khalifa, R. Gaina, J. Togelius and S. Lucas.**  
+- 📄 **D. Perez-Liebana, J. Liu, A. Khalifa, R. Gaina, J. Togelius and S. Lucas.**  
   *General Video Game AI: A Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms.*  
   IEEE Transactions on Games, 11(3), pp. 195–214, 2019.  
   👉 [PDF]({{ '/assets/pdf/papers/GVGAIFramework-TOG19.pdf' | relative_url }})
 
-- **D. Perez-Liebana, S. Lucas, R. Gaina, A. Khalifa, J. Togelius and J. Liu.**  
+- 📄 **D. Perez-Liebana, S. Lucas, R. Gaina, A. Khalifa, J. Togelius and J. Liu.**  
   *General Video Game Artificial Intelligence.*  
   Morgan & Claypool Publishers, 2019.  
   👉 [PDF]({{ '/assets/pdf/papers/GVGAIBook.pdf' | relative_url }})
+
+#### Other Publications
+
+- **D. Perez-Liebana, S. Samothrakis, J. Togelius, T. Schaul, S. M. Lucas, A. Couëtoux, J. Lee, C.-U. Lim and T. Thompson.**  
+  *The 2014 General Video Game Playing Competition.*  
+  IEEE Transactions on Computational Intelligence and AI in Games, **8(3)**, pp. 229–243, 2016.  
+  👉 [PDF]({{ '/assets/pdf/papers/GVGAICompetition-TCIAIG15.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2015.2402393)
+
+- **D. Perez-Liebana, S. Samothrakis, J. Togelius, T. Schaul and S. M. Lucas.**  
+  *General Video Game AI: Competition, Challenges and Opportunities.*  
+  Proceedings of the **Thirtieth AAAI Conference on Artificial Intelligence (AAAI)**, 2016.  
+  👉 [PDF]({{ '/assets/pdf/papers/GVGAI-AAAI16.pdf' | relative_url }}) · [DOI](https://doi.org/10.1609/aaai.v30i1.9869)
+
+- **R. D. Gaina, A. Couëtoux, D. J. N. J. Soemers, M. H. M. Winands, T. Vodopivec, F. Kirchgessner, J. Liu, S. M. Lucas and D. Perez-Liebana.**  
+  *The 2016 Two-Player GVGAI Competition.*  
+  IEEE Transactions on Games, **10(2)**, pp. 209–220, 2018.  
+  👉 [PDF]({{ '/assets/pdf/papers/GVGAI2P-TOG18.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2017.2771241)
+
+- **R. D. Gaina, S. Devlin, S. M. Lucas and D. Perez-Liebana.**  
+  *Rolling Horizon Evolutionary Algorithms for General Video Game Playing.*  
+  IEEE Transactions on Games, **14(2)**, pp. 232–242, 2022.  
+  👉 [PDF]({{ '/assets/pdf/papers/RHEA-TOG21.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TG.2021.3060282)
+
 
 ---
 
 # Legacy
 
-GVGAI has become one of the most influential benchmark environments in Game AI research. Beyond its extensive use in planning and reinforcement learning, the framework has inspired numerous subsequent research projects including Stratega, TAG (Tabletop Games Framework), PyTAG, and recent work on Large Language Models for Game AI.
+GVGAI was, at its birth, one of the most influential benchmark environments in Game AI research (before, e.g. the arrival of the nowadays largely used ALE). Beyond its extensive use in planning and reinforcement learning, the framework has inspired numerous subsequent research projects including Stratega, TAG (Tabletop Games Framework), PyTAG, and recent work on Large Language Models for Game AI.
 
 More broadly, GVGAI helped establish the idea that **generality** should be a central objective of Game AI research. Rather than designing algorithms for a single game, the framework encourages the development of methods capable of adapting to many different environments, making it a precursor to today's broader efforts towards General Artificial Intelligence.
