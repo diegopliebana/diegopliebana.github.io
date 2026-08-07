@@ -1177,3 +1177,8 @@ swiper-container {
   font-size: 0.9rem;
   color: var(--global-text-color-light);
 }
+
+.project-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
