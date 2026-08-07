@@ -198,34 +198,34 @@ The repository contains:
 - 📄 **D. Perez-Liebana, J. Liu, A. Khalifa, R. Gaina, J. Togelius and S. Lucas.**  
   *General Video Game AI: A Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms.*  
   IEEE Transactions on Games, 11(3), pp. 195–214, 2019.  
-  👉 [PDF]({{ '/assets/pdf/papers/GVGAIFramework-TOG19.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/GVGAI_Survey.pdf' | relative_url }})
 
 - 📄 **D. Perez-Liebana, S. Lucas, R. Gaina, A. Khalifa, J. Togelius and J. Liu.**  
   *General Video Game Artificial Intelligence.*  
   Morgan & Claypool Publishers, 2019.  
-  👉 [PDF]({{ '/assets/pdf/papers/GVGAIBook.pdf' | relative_url }})
+  👉 [Web Site](https://gaigresearch.github.io/gvgaibook/)
 
 #### Other Publications
 
 - **D. Perez-Liebana, S. Samothrakis, J. Togelius, T. Schaul, S. M. Lucas, A. Couëtoux, J. Lee, C.-U. Lim and T. Thompson.**  
   *The 2014 General Video Game Playing Competition.*  
   IEEE Transactions on Computational Intelligence and AI in Games, **8(3)**, pp. 229–243, 2016.  
-  👉 [PDF]({{ '/assets/pdf/papers/GVGAICompetition-TCIAIG15.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2015.2402393)
+  👉 [PDF]({{ '/assets/pdf/papers/GVGAI2014Competition.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2015.2402393)
 
 - **D. Perez-Liebana, S. Samothrakis, J. Togelius, T. Schaul and S. M. Lucas.**  
   *General Video Game AI: Competition, Challenges and Opportunities.*  
   Proceedings of the **Thirtieth AAAI Conference on Artificial Intelligence (AAAI)**, 2016.  
-  👉 [PDF]({{ '/assets/pdf/papers/GVGAI-AAAI16.pdf' | relative_url }}) · [DOI](https://doi.org/10.1609/aaai.v30i1.9869)
+  👉 [PDF]({{ '/assets/pdf/papers/aaai2016_gvgai.pdf' | relative_url }}) · [DOI](https://doi.org/10.1609/aaai.v30i1.9869)
 
 - **R. D. Gaina, A. Couëtoux, D. J. N. J. Soemers, M. H. M. Winands, T. Vodopivec, F. Kirchgessner, J. Liu, S. M. Lucas and D. Perez-Liebana.**  
   *The 2016 Two-Player GVGAI Competition.*  
   IEEE Transactions on Games, **10(2)**, pp. 209–220, 2018.  
-  👉 [PDF]({{ '/assets/pdf/papers/GVGAI2P-TOG18.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2017.2771241)
+  👉 [PDF]({{ '/assets/pdf/papers/GVGAI20162PCompetition.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TCIAIG.2017.2771241)
 
 - **R. D. Gaina, S. Devlin, S. M. Lucas and D. Perez-Liebana.**  
   *Rolling Horizon Evolutionary Algorithms for General Video Game Playing.*  
   IEEE Transactions on Games, **14(2)**, pp. 232–242, 2022.  
-  👉 [PDF]({{ '/assets/pdf/papers/RHEA-TOG21.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TG.2021.3060282)
+  👉 [PDF]({{ '/assets/pdf/papers/RHEAforGVGP_ToG21.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/TG.2021.3060282)
 
 
 ---
