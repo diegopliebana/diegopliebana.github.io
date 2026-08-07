@@ -103,45 +103,19 @@ The PTSP project resulted in several methodological contributions that influence
 
 <h3 id="real-time-planning">A Benchmark for Real-time Planning</h3>
 
-<div class="row">
-
-<div class="col-sm-7" markdown="1">
-
-Unlike classical optimisation benchmarks, PTSP combines <strong>global route optimisation</strong> with <strong>continuous low-level control</strong>. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
-
-This combination made PTSP substantially more challenging than traditional path-planning problems while remaining computationally lightweight enough to support thousands of simulations during search.
-
-</div>
-
-<div class="col-sm-5" markdown="1">
-
 <img
 src="{{ '/assets/img/projects/ptsp/gameplay2.png' | relative_url }}"
 alt="PTSP gameplay"
 style="width:100%;"
 />
 
-</div>
+Unlike classical optimisation benchmarks, PTSP combines <strong>global route optimisation</strong> with <strong>continuous low-level control</strong>. Solving the benchmark requires selecting an efficient waypoint order while simultaneously controlling a spaceship with inertia through a maze of obstacles.
 
-</div>
+This combination made PTSP substantially more challenging than traditional path-planning problems while remaining computationally lightweight enough to support thousands of simulations during search.
 
 ---
 
 <h3 id="mcts">Monte Carlo Tree Search and Statistical Forward Planning</h3>
-
-<div class="row">
-
-<div class="col-sm-8" markdown="1">
-
-PTSP became one of the first benchmark environments used to investigate <strong>Monte Carlo Tree Search (MCTS)</strong> in continuous real-time games.
-
-The project introduced the use of <strong>macro-actions</strong> within MCTS, allowing the search algorithm to reason over sequences of actions rather than individual control inputs. This substantially increased planning depth while reducing the branching factor, demonstrating that statistical forward planning could be successfully applied to dynamic environments with continuous physics.
-
-Several of these ideas later became the foundation for subsequent work on General Video Game Playing, strategy games and Statistical Forward Planning.
-
-</div>
-
-<div class="col-sm-4" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/ptsp/mcts.png' | relative_url }}"
@@ -149,24 +123,16 @@ alt="Monte Carlo Tree Search and macro-actions in PTSP"
 style="width:100%;"
 />
 
-</div>
+PTSP became one of the first benchmark environments used to investigate <strong>Monte Carlo Tree Search (MCTS)</strong> in continuous real-time games.
 
-</div>
+The project introduced the use of <strong>macro-actions</strong> within MCTS, allowing the search algorithm to reason over sequences of actions rather than individual control inputs. This substantially increased planning depth while reducing the branching factor, demonstrating that statistical forward planning could be successfully applied to dynamic environments with continuous physics.
+
+Several of these ideas later became the foundation for subsequent work on General Video Game Playing, strategy games and Statistical Forward Planning.
+
 
 ---
 
 <h3 id="multi-objective">Multi-objective Optimisation</h3>
-
-<div class="row">
-
-<div class="col-sm-8" markdown="1">
-The PTSP benchmark was later extended into a <strong>multi-objective optimisation</strong> problem, where agents were required to optimise several conflicting objectives simultaneously rather than simply minimising completion time.
-In addition to visiting all waypoints as quickly as possible, controllers were evaluated according to criteria such as <strong>fuel consumption</strong>, <strong>damage sustained</strong>, and overall route efficiency. This transformed PTSP from a single-objective planning benchmark into a richer decision-making environment representative of many real-world optimisation problems.
-This extension motivated the development of <strong>Multi-Objective Monte Carlo Tree Search (MO-MCTS)</strong>, an adaptation of MCTS capable of balancing competing objectives during search without requiring them to be combined into a single scalar reward. The resulting algorithms demonstrated that statistical forward planning could be effectively applied to multi-objective optimisation, while also providing valuable insights into the trade-offs between different planning strategies.
-The benchmark also formed the basis of the <strong>Multi-Objective Physical Travelling Salesman Problem Competition</strong>, encouraging the Game AI community to investigate planning algorithms capable of handling multiple conflicting objectives under real-time constraints.
-</div>
-
-<div class="col-sm-4" markdown="1">
 
 <img
 src="{{ '/assets/img/projects/ptsp/mo-ptsp.png' | relative_url }}"
@@ -174,9 +140,10 @@ alt="Multi-objective PTSP and MO-MCTS"
 style="width:100%;"
 />
 
-</div>
-
-</div>
+The PTSP benchmark was later extended into a <strong>multi-objective optimisation</strong> problem, where agents were required to optimise several conflicting objectives simultaneously rather than simply minimising completion time.
+In addition to visiting all waypoints as quickly as possible, controllers were evaluated according to criteria such as <strong>fuel consumption</strong>, <strong>damage sustained</strong>, and overall route efficiency. This transformed PTSP from a single-objective planning benchmark into a richer decision-making environment representative of many real-world optimisation problems.
+This extension motivated the development of <strong>Multi-Objective Monte Carlo Tree Search (MO-MCTS)</strong>, an adaptation of MCTS capable of balancing competing objectives during search without requiring them to be combined into a single scalar reward. The resulting algorithms demonstrated that statistical forward planning could be effectively applied to multi-objective optimisation, while also providing valuable insights into the trade-offs between different planning strategies.
+The benchmark also formed the basis of the <strong>Multi-Objective Physical Travelling Salesman Problem Competition</strong>, encouraging the Game AI community to investigate planning algorithms capable of handling multiple conflicting objectives under real-time constraints.
 
 ---
 
