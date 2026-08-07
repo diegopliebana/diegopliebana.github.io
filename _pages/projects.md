@@ -27,27 +27,21 @@ children:
 ## Ongoing projects
 
 <div class="projects">
-<div class="project-card-grid">
-
-{% assign ongoing_projects = site.projects | where: "status", "ongoing" | sort: "importance" %}
-
-{% for project in ongoing_projects %}
-  {% include projects.liquid %}
-{% endfor %}
-
-</div>
+  <div class="project-card-grid">
+    {% assign ongoing_projects = site.projects | where: "status", "ongoing" | sort: "importance" %}
+    {% for project in ongoing_projects %}
+      {% include project-card.liquid %}
+    {% endfor %}
+  </div>
 </div>
 
 ## Completed projects
 
 <div class="projects">
-<div class="project-card-grid">
-
-{% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_year" | reverse %}
-
-{% for project in completed_projects %}
-  {% include projects.liquid %}
-{% endfor %}
-
-</div>
+  <div class="project-card-grid">
+    {% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_year" | reverse %}
+    {% for project in completed_projects %}
+      {% include project-card.liquid %}
+    {% endfor %}
+  </div>
 </div>
