@@ -10,16 +10,22 @@ horizontal: false
 
 ## Ongoing projects
 
-{% assign ongoing_projects = site.projects | where: "status", "ongoing" | sort: "importance" %}
-
-{% for project in ongoing_projects %}
-  {% include projects.liquid %}
-{% endfor %}
+<div class="projects">
+  <div class="grid">
+    {% assign ongoing_projects = site.projects | where: "status", "ongoing" | sort: "importance" %}
+    {% for project in ongoing_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
 
 ## Completed projects
 
-{% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_year" | reverse %}
-
-{% for project in completed_projects %}
-  {% include projects.liquid %}
-{% endfor %}
+<div class="projects">
+  <div class="grid">
+    {% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_year" | reverse %}
+    {% for project in completed_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
