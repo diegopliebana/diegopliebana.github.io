@@ -97,7 +97,7 @@ This extension created a benchmark for <strong>general reinforcement learning</s
 
 </div>
 
-<div class="col-sm-8">
+<div class="col-sm-5">
 
  <img
 src="{{ '/assets/img/projects/gvgai/learning.png' | relative_url }}"
