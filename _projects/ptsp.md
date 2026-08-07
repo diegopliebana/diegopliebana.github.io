@@ -8,7 +8,7 @@ img: assets/img/projects/ptsp/cover.png
 
 importance: 10
 
-status: completed
+status: completed 
 
 start_year: 2011
 end_year: 2014
