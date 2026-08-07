@@ -14,9 +14,28 @@ end_year: 2021
 
 funding: EPSRC New Investigator Award
 grant: EP/T008962/1
+
+
+toc:
+
+  - title: Tribes
+    id: tribes
+    
+  - title: Research Contributions
+    id: research
+    children:
+      - title: Framework
+        id: framework
+      - title: Diverse Play-Styles
+        id: play-styles
+    
+  - title: Resources
+    id: resources
 ---
 
-# Tribes
+{% include project_toc.liquid %}
+
+<h1 id="tribes">Tribes</h1>
 
 *2019–2021*
 
@@ -26,9 +45,10 @@ The framework was developed within the <strong>EPSRC New Investigator Award "Abs
 
 ---
 
-# Research Contributions
+<h1 id="research">Research Contributions</h1>
 
-### A Research Framework Inspired by The Battle of Polytopia
+<h3 id="framework">A Research Framework Inspired by The Battle of Polytopia</h3>
+
 
 <img
 src="{{ '/assets/img/projects/tribes/tribes.png' | relative_url }}"
@@ -48,7 +68,7 @@ The original study also analysed the game's large action space and compared seve
 
 ---
 
-### Diverse Play-Styles with Portfolio MCTS and MAP-Elites
+<h3 id="play-styles">Diverse Play-Styles with Portfolio MCTS and MAP-Elites</h3>
 
 <img
 src="{{ '/assets/img/projects/tribes/mapelites.png' | relative_url }}"
@@ -84,7 +104,8 @@ The project investigated how Statistical Forward Planning algorithms such as Mon
 
 ---
 
-# Resources
+<h1 id="resources">Resources</h1>
+
 
 ### Key Publications
 
