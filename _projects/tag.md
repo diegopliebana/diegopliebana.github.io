@@ -14,6 +14,10 @@ start_year: 2020
 github: https://github.com/GAIGResearch/TabletopGames
 
 toc:
+
+  - title: TAG
+    id: TAG
+    
   - title: The Challenge
     id: challenge
 
@@ -53,7 +57,8 @@ toc:
 
 {% include project_toc.liquid %}
 
-# Tabletop Games Framework (TAG)
+
+<h1 id="TAG">Tabletop Games Framework (TAG)</h1>
 
 *2020–Present*
 
