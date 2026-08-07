@@ -225,7 +225,7 @@ The PTSP project resulted in a sequence of publications covering the benchmark i
 - 📄 **D. Perez-Liebana, S. Samothrakis, P. Rohlfshagen and S. M. Lucas.**  
   *Multi-objective Monte Carlo Tree Search for Real-Time Games.*  
   Proceedings of the **IEEE Congress on Evolutionary Computation (CEC)**, pp. 2322–2329, 2014.  
-  👉 [PDF]({{ '/assets/pdf/papers/MOMCTS_CEC2014.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/CEC.2014.6900244)
+  👉 [PDF]({{ '/assets/pdf/papers/MOMCTS_TCIAIG2014.pdf' | relative_url }}) · [DOI](https://doi.org/10.1109/CEC.2014.6900244)
 
 #### Other Publications
 
