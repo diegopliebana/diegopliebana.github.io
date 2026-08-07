@@ -1,3 +1,4 @@
+```markdown
 ---
 layout: page
 title: Tribes
@@ -16,29 +17,41 @@ end_year: 2021
 funding: EPSRC New Investigator Award
 grant: EP/T008962/1
 
-
 toc:
+  - title: Top
+    id: top
 
-  - title: Tribes
-    id: tribes
-    
+  - title: Summary
+    id: summary
+
   - title: Research Contributions
-    id: research
+    id: research-contributions
     children:
-      - title: Framework
+      - title: Strategy Game Framework
         id: framework
       - title: Diverse Play-Styles
         id: play-styles
-    
+
+  - title: Funding
+    id: funding
+
   - title: Resources
     id: resources
+    children:
+      - title: Key Publications
+        id: key-publications
+
+  - title: Legacy
+    id: legacy
 ---
 
-{% include project_toc.liquid %}
+<div id="top"></div>
 
-<h1 id="tribes">Tribes</h1>
+# Tribes
 
 *2019–2021*
+
+{% include project_toc.liquid %}
 
 Tribes is a turn-based strategy game framework created for Artificial Intelligence research. It was developed as a research-oriented implementation inspired by <a href="https://polytopia.io/">The Battle of Polytopia</a>, preserving many of the characteristics that make modern strategy games challenging for AI while exposing the game state and forward model required for algorithmic experimentation.
 
@@ -46,10 +59,19 @@ The framework was developed within the <strong>EPSRC New Investigator Award "Abs
 
 ---
 
-<h1 id="research">Research Contributions</h1>
+<h1 id="summary">Summary</h1>
+
+Tribes provides a compact but strategically rich environment for studying Artificial Intelligence in modern turn-based strategy games.
+
+Inspired by <a href="https://polytopia.io/">The Battle of Polytopia</a>, the framework combines exploration, city development, technology acquisition, resource management and tactical combat. At the same time, it exposes a forward model and complete internal game state suitable for controlled AI experimentation.
+
+The project enabled two main lines of research: the development and evaluation of planning agents in a comparatively complex strategy-game environment, and the generation of strong agents exhibiting distinct strategic play-styles using Portfolio MCTS, Progressive Unpruning and MAP-Elites.
+
+---
+
+<h1 id="research-contributions">Research Contributions</h1>
 
 <h3 id="framework">A Research Framework Inspired by The Battle of Polytopia</h3>
-
 
 <img
 src="{{ '/assets/img/projects/tribes/tribes.png' | relative_url }}"
@@ -91,7 +113,7 @@ This work demonstrates how quality-diversity optimisation can be combined with s
 
 ---
 
-# Funding
+<h1 id="funding">Funding</h1>
 
 👉 <strong>EPSRC New Investigator Award</strong>
 
@@ -107,26 +129,25 @@ The project investigated how Statistical Forward Planning algorithms such as Mon
 
 <h1 id="resources">Resources</h1>
 
-
-### Key Publications
+<h3 id="key-publications">Key Publications</h3>
 
 - 📄 <strong>D. Perez-Liebana, Y.-J. Hsu, S. Emmanouilidis, B. D. A. Khaleque and R. D. Gaina.</strong>  
   <em>Tribes: A New Turn-Based Strategy Game for AI Research.</em>  
   Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE), <strong>16(1)</strong>, pp. 252–258, 2020.  
-  👉 [PDF]({{ '/assets/pdf/papers/TribesAIIDE20.pdf' | relative_url }}) · <a href="https://doi.org/10.1609/aiide.v16i1.7438">DOI</a>
+  👉 <a href="{{ '/assets/pdf/papers/TribesAIIDE20.pdf' | relative_url }}">PDF</a> · <a href="https://doi.org/10.1609/aiide.v16i1.7438">DOI</a>
 
 - 📄 <strong>D. Perez-Liebana, C. Guerrero-Romero, A. Dockhorn, L. Xu, D. Jeurissen and J. Hurtado.</strong>  
   <em>Generating Diverse and Competitive Play-Styles for Strategy Games.</em>  
   Proceedings of the IEEE Conference on Games (CoG), 2021.  
-  👉 [PDF]({{ '/assets/pdf/papers/MapElitesTribesCoG2021.pdf' | relative_url }}) · <a href="https://arxiv.org/abs/2104.08641">arXiv</a>
+  👉 <a href="{{ '/assets/pdf/papers/MapElitesTribesCoG2021.pdf' | relative_url }}">PDF</a> · <a href="https://arxiv.org/abs/2104.08641">arXiv</a>
 
 ---
 
-# Legacy
+<h1 id="legacy">Legacy</h1>
 
 Tribes provided a compact but challenging environment for studying Artificial Intelligence in modern turn-based strategy games. It complemented the more general Stratega framework by providing a concrete game with complex strategic structure and enabled research ranging from baseline Statistical Forward Planning to portfolio search, Progressive Unpruning and quality-diversity methods for generating different play-styles.
 
 The project also helped demonstrate how research environments inspired by successful commercial games can retain strategically meaningful complexity while exposing the forward models and internal state required for controlled AI experimentation.
-```
 
 <script src="{{ '/assets/js/project_toc.js' | relative_url }}"></script>
+```
