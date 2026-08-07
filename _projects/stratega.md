@@ -70,9 +70,11 @@ These methods demonstrated that carefully designed algorithm portfolios consiste
 
 ## Elastic Monte Carlo Tree Search
 
-<div class="row">
-
-<div class="col-sm-8">
+<img
+src="{{ '/assets/img/projects/stratega/elastic.png' | relative_url }}"
+alt="Elastic Monte Carlo Tree Search"
+style="width:100%;"
+/>
 
 <p>
 
@@ -97,20 +99,6 @@ The approach significantly improves the efficiency of Statistical Forward Planni
 The algorithm was evaluated extensively within Stratega across multiple turn-based strategy games, demonstrating the advantages of adaptive search budgets over conventional fixed-budget planning.
 
 </p>
-
-</div>
-
-<div class="col-sm-4">
-
-<img
-src="{{ '/assets/img/projects/stratega/elastic.png' | relative_url }}"
-alt="Elastic Monte Carlo Tree Search"
-style="width:100%;"
-/>
-
-</div>
-
-</div>
 
 ---
 
@@ -169,21 +157,58 @@ Stratega was developed as the primary software platform supporting this research
 
 ---
 
+
+
 ### Key Publications
 
-- <strong>D. Perez-Liebana</strong>, et al.  
-  <em>Stratega: A General Strategy Games Framework for Artificial Intelligence Research.</em>  
-  👉 PDF
-
-- <strong>D. Perez-Liebana</strong>, et al.  
+- 📄 <strong>L. Xu, A. Dockhorn and D. Perez-Liebana.</strong>  
   <em>Elastic Monte Carlo Tree Search.</em>  
-  IEEE Transactions on Games, 15(4), pp. 527–537, 2023.  
+  IEEE Transactions on Games, <strong>15(4)</strong>, pp. 527–537, 2023.  
   👉 [PDF]({{ '/assets/pdf/papers/ElasticMCTS-TOG23.pdf' | relative_url }})
 
-- <strong>M. Balla</strong>, G. Long, J. Goodman, R. Gaina and <strong>D. Perez-Liebana</strong>.  
-  <em>PyTAG: Tabletop Games for Multi-Agent Reinforcement Learning.</em>  
+- 📄 <strong>L. Xu, A. Dockhorn and D. Perez-Liebana.</strong>  
+  <em>Towards Applicable State Abstractions: A Preview in Strategy Games.</em>  
+  Reinforcement Learning and Decision Making (RLDM) – RL as a Model of Agency Workshop, 2022.  
+  👉 [PDF]({{ '/assets/pdf/papers/ApplicableStateAbstractions-RLDM22.pdf' | relative_url }})
+
+- 📄 <strong>A. Dockhorn, J. Hurtado-Grueso, D. Jeurissen, L. Xu and D. Perez-Liebana.</strong>  
+  <em>Game State and Action Abstracting Monte Carlo Tree Search for General Strategy Game-Playing.</em>  
+  Proceedings of the IEEE Conference on Games (CoG), 2021.  
+  👉 [PDF]({{ '/assets/pdf/papers/StateActionAbstraction-CoG21.pdf' | relative_url }})
+
+- 📄< strong>G. Long, S. Samothrakis and D. Perez-Liebana.</strong>  
+  <em>STEP: A Framework for Automated Point Cost Estimation.</em>  
   IEEE Transactions on Games, 2024.  
-  👉 [PDF]({{ '/assets/pdf/papers/PyTAG-TOG24.pdf' | relative_url }})
+  👉 [PDF]({{ '/assets/pdf/papers/STEP-TOG24.pdf' | relative_url }})
+
+- 📄 <strong>A. Dockhorn, J. Hurtado-Grueso, D. Jeurissen and D. Perez-Liebana.</strong>  
+  <em>Stratega: A General Strategy Games Framework.</em>  
+  AIIDE-20 Workshop on Artificial Intelligence for Strategy Games, 2020.  
+  👉 [PDF]({{ '/assets/pdf/papers/Stratega-AIIDE20.pdf' | relative_url }})
+
+
+#### Other Publications
+
+- <strong>G. Long, D. Perez-Liebana and S. Samothrakis.</strong>  
+  <em>Balancing Wargames through Predicting Unit Point Costs.</em>  
+  Proceedings of the IEEE Conference on Games (CoG), 2023.  
+  👉 [PDF]({{ '/assets/pdf/papers/BalancingWargames-CoG23.pdf' | relative_url }})
+
+- <strong>L. Xu, J. Hurtado-Grueso, D. Jeurissen, A. Dockhorn and D. Perez-Liebana.</strong>  
+  <em>Elastic Monte Carlo Tree Search with State Abstraction for Strategy Game Playing.</em>  
+  Proceedings of the IEEE Conference on Games (CoG), 2022.  
+  👉 [PDF]({{ '/assets/pdf/papers/ElasticStateAbstraction-CoG22.pdf' | relative_url }})
+
+- <strong>L. Xu, A. Dockhorn and D. Perez-Liebana.</strong>  
+  <em>Strategy Game-Playing with Size-Constrained State Abstraction.</em>  
+  Proceedings of the IEEE Conference on Games (CoG), 2024.  
+  👉 [PDF]({{ '/assets/pdf/papers/SizeConstrainedStateAbstraction-CoG24.pdf' | relative_url }})
+
+- <strong>A. Dockhorn, J. Hurtado-Grueso, D. Jeurissen, L. Xu and D. Perez-Liebana.</strong>  
+  <em>Portfolio Search and Optimization for General Strategy Game-Playing.</em>  
+  Proceedings of the IEEE Congress on Evolutionary Computation (CEC), 2021.  
+  👉 [PDF]({{ '/assets/pdf/papers/PortfolioCEC2021.pdf' | relative_url }})
+
 
 ---
 
