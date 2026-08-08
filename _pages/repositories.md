@@ -15,7 +15,7 @@ A selection of open-source frameworks and software developed as part of my resea
 
 ### TAG — Tabletop Games Framework
 
-A general research framework for implementing, playing and analysing modern tabletop games with AI agents.
+A general research framework for implementing, playing and analysing modern Tabletop Games with AI agents.
 
 👉 <a href="https://github.com/GAIGResearch/TabletopGames">github.com/GAIGResearch/TabletopGames</a>
 
@@ -50,4 +50,3 @@ The General Video Game Artificial Intelligence framework and competition environ
 The Physical Travelling Salesman Problem framework used for research on real-time planning, MCTS and optimisation.
 
 👉 <a href="https://github.com/diegopliebana/ptsp-so">github.com/diegopliebana/ptsp-so</a>
-```
