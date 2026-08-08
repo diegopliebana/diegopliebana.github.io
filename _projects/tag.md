@@ -60,7 +60,7 @@ toc:
 
 # Tabletop Games Framework (TAG)
 
-{% include project_toc.liquid %>
+{% include project_toc.liquid %}
 
 *2020–Present*
 
