@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: page
 title: Tribes
@@ -150,4 +149,3 @@ Tribes provided a compact but challenging environment for studying Artificial In
 The project also helped demonstrate how research environments inspired by successful commercial games can retain strategically meaningful complexity while exposing the forward models and internal state required for controlled AI experimentation.
 
 <script src="{{ '/assets/js/project_toc.js' | relative_url }}"></script>
-```
