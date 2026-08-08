@@ -252,4 +252,3 @@ The research conducted with Stratega also produced substantial methodological co
 Many of the ideas developed within Stratega directly influenced subsequent projects including TAG, PyTAG and broader research on Artificial Intelligence for modern tabletop games.
 
 <script src="{{ '/assets/js/project_toc.js' | relative_url }}"></script>
-```
