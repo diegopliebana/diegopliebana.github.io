@@ -58,6 +58,9 @@ toc:
 
 <div id="top"></div>
 
+{% include project_toc.liquid %}
+
+
 # Tabletop Games Framework (TAG)
 
 *2020–Present*
