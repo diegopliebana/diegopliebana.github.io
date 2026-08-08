@@ -1,47 +1,54 @@
+```markdown
 ---
 layout: page
-permalink: /repositories/
 title: Repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /repositories/
+description: Open-source software and research frameworks.
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
+# Repositories
 
-{% if site.data.repositories.github_users %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+A selection of open-source frameworks and software developed as part of my research.
 
 ---
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
+### TAG — Tabletop Games Framework
 
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+A general research framework for implementing, playing and analysing modern tabletop games with AI agents.
+
+👉 <a href="https://github.com/GAIGResearch/TabletopGames">github.com/GAIGResearch/TabletopGames</a>
 
 ---
 
-{% endfor %}
-{% endif %}
-{% endif %}
+### PyTAG
 
-## GitHub Repositories
+A Python interface to TAG for Multi-Agent Reinforcement Learning and modern Python-based AI workflows.
 
-{% if site.data.repositories.github_repos %}
+👉 <a href="https://github.com/martinballa/PyTAG">github.com/martinballa/PyTAG</a>
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+---
+
+### Stratega
+
+A configurable framework for Artificial Intelligence research in turn-based strategy games.
+
+👉 <a href="https://github.com/GAIGResearch/Stratega">github.com/GAIGResearch/Stratega</a>
+
+---
+
+### GVGAI
+
+The General Video Game Artificial Intelligence framework and competition environment for general game-playing research.
+
+👉 <a href="https://github.com/GAIGResearch/GVGAI">github.com/GAIGResearch/GVGAI</a>
+
+---
+
+### PTSP
+
+The Physical Travelling Salesman Problem framework used for research on real-time planning, MCTS and optimisation.
+
+👉 <a href="https://github.com/diegopliebana/ptsp-so">github.com/diegopliebana/ptsp-so</a>
+```
