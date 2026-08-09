@@ -3,6 +3,7 @@ layout: page
 title: Tribes
 short_title: Tribes
 description: A turn-based strategy game framework for AI research, inspired by The Battle of Polytopia.
+github: https://github.com/GAIGResearch/Tribes
 
 img: assets/img/projects/tribes/cover.png
 
