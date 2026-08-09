@@ -5,15 +5,34 @@ permalink: /teaching/
 description: Courses, lecture material and educational resources.
 nav: true
 nav_order: 6
+
+toc:
+  - title: Top
+    id: top
+
+  - title: Statistical Planning & Reinforcement Learning
+    id: sprl
+
+  - title: Advanced Game Development
+    id: agd
+
+  - title: AI for Game Design
+    id: aigd
+
+  - title: Game AI Seminar Series
+    id: seminar
 ---
 
-# Teaching
+<div id="top"></div>
 
-[2–3 paragraph introduction]
+{% include project_toc.liquid %}
+
+
+Artificial Intelligence is one of the few disciplines where teaching and research evolve at an exceptional pace. The material collected on this page brings together a selection of postgraduate courses that I have designed and delivered over the past decade, covering topics ranging from Game AI and Statistical Planning to modern Game Development and AI-assisted Game Design. Each course combines theoretical foundations with practical exercises based on research software and benchmarks developed within my research, providing students with hands-on experience using the same tools and methodologies employed in contemporary Game AI research.
 
 ---
 
-## Statistical Planning and Reinforcement Learning (MSc)
+<h2 id="sprl">Statistical Planning and Reinforcement Learning (MSc)</h2>
 
 <img
 src="{{ '/assets/img/teaching/mcts-alg.png' | relative_url }}"
@@ -32,7 +51,11 @@ A postgraduate course on statistical planning methods for Game AI, combining lec
 
 <strong>Related project:</strong> <a href="/projects/tag/">TAG — Tabletop Games Framework</a>
 
-## Advanced Game Development (MSc)
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+<h2 id="agd">Advanced Game Development (MSc)</h2>
 
 
 <img
@@ -51,7 +74,11 @@ The course places a strong emphasis on professional development practices, with 
 - 💻 <strong>Laboratory Sessions</strong>: [Programming exercises and model solutions](https://drive.google.com/drive/folders/1ACaMcjFxbTHjtmOCZpus9jUz9dYhNJsQ?usp=drive_link)
 - 📘 <strong>C++ Tutorial</strong>: [Comprehensive reference slides](https://docs.google.com/presentation/d/1v7_4cWXlDqc2P2Abbx3NHbk9ktBtqPhz/edit?usp=drive_link&ouid=105123930321315159774&rtpof=true&sd=true)
 
-## AI for Game Design (MSc / PhD)
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+<h2 id="aigd">AI for Game Design (MSc / PhD)</h2>
 
 <img
 src="{{ '/assets/img/teaching/mapelites.png' | relative_url }}"
@@ -69,7 +96,11 @@ This postgraduate course explores how Artificial Intelligence can support and au
 
 <strong>Related project:</strong> <a href="/projects/tag/">TAG — Tabletop Games Framework</a>
 
-## Game AI Seminar Series (MSc / PhD)
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+<h2 id="seminar">Game AI Seminar Series (MSc / PhD)</h2>
 
 <img
 src="{{ '/assets/img/teaching/AIandGames.png' | relative_url }}"
@@ -84,3 +115,9 @@ A four-part seminar series introducing postgraduate students to the breadth of m
 - 📄 <strong>Seminar Slides</strong>: [Four-days seminar lectures](https://drive.google.com/drive/folders/1OZDAfdRr_sCBJkrB_XH3nHG8-4rEJUrs?usp=drive_link)
 
 <strong>Related projects:</strong> <a href="/projects/gvgai/">GVGAI</a> · <a href="/projects/stratega/">Stratega</a> · <a href="/projects/ptsp/">PTSP</a> · <a href="/projects/tag/">TAG</a>
+
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+<script src="{{ '/assets/js/project_toc.js' | relative_url }}"></script>
