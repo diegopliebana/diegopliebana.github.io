@@ -7,8 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-# Repositories
-
 A selection of open-source frameworks and software developed as part of my research.
 
 ---
