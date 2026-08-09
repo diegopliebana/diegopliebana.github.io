@@ -1340,3 +1340,76 @@ swiper-container {
   }
 }
 
+/* Project overview grid */
+
+.projects .project-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.75rem;
+  align-items: stretch;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.projects .project-card-item {
+  min-width: 0;
+}
+
+.projects .project-card-item > a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.projects .project-card-item .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.projects .project-card-item figure {
+  margin: 0;
+}
+
+.projects .project-card-item img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.projects .project-card-item .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.projects .project-card-item .card-title {
+  font-size: 1.35rem;
+  min-height: 2.7rem;
+  margin-bottom: 0.75rem;
+}
+
+.projects .project-card-item .card-text {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.projects .project-card-footer {
+  margin-top: auto;
+}
+
+@media (max-width: 991px) {
+  .projects .project-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575px) {
+  .projects .project-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
