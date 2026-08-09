@@ -6,29 +6,25 @@
           include figure.liquid
           loading="eager"
           path=project.img
-          sizes="350px"
-          alt="project thumbnail"
+          sizes="400px"
+          alt=project.title
         %}
       {% endif %}
 
       <div class="card-body">
-        <h2 class="card-title text-lowercase">
+        <h2 class="card-title">
           {{ project.short_title | default: project.title }}
         </h2>
 
         <p class="card-text">{{ project.description }}</p>
 
-        <div class="row ml-1 mr-1 p-0 project-card-footer">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}">
-                  <i class="fa-brands fa-github gh-icon"></i>
-                </a>
-              </div>
-            </div>
-          {% endif %}
-        </div>
+        {% if project.github %}
+          <div class="project-card-footer">
+            <a href="{{ project.github }}" aria-label="GitHub repository">
+              <i class="fa-brands fa-github gh-icon"></i>
+            </a>
+          </div>
+        {% endif %}
       </div>
     </div>
   </a>
