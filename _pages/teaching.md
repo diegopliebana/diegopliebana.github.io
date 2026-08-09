@@ -15,7 +15,11 @@ nav_order: 6
 
 ## Statistical Planning and Reinforcement Learning (MSc)
 
-*[Header image]*
+<img
+src="{{ '/assets/img/teaching/mcts-alg.png' | relative_url }}"
+alt="Monte Carlo Tree Search algorithm"
+style="width:100%; margin-bottom:1rem;"
+/>
 
 A postgraduate course on statistical planning methods for Game AI, combining lectures with practical work in <a href="/projects/tag/">TAG</a> and Pommerman. The material covers core ideas in forward planning and agent design, with an emphasis on implementing and evaluating AI methods in game environments.
 
@@ -30,7 +34,12 @@ A postgraduate course on statistical planning methods for Game AI, combining lec
 
 ## Advanced Game Development (MSc)
 
-*[Header image]*
+
+<img
+src="{{ '/assets/img/teaching/ecs.png' | relative_url }}"
+alt="Entity Component System"
+style="width:100%; margin-bottom:1rem;"
+/>
 
 This Master's course focuses on the software engineering principles behind modern game engines and large-scale game development. Through a combination of lectures and practical programming exercises, students learn how to design efficient, modular and maintainable game architectures, covering topics such as game loops, object management, entity-component systems, memory management and event-driven programming.
 
@@ -44,7 +53,11 @@ The course places a strong emphasis on professional development practices, with 
 
 ## AI for Game Design (MSc / PhD)
 
-*[Header image]*
+<img
+src="{{ '/assets/img/teaching/mapelites.png' | relative_url }}"
+alt="MAP-Elites for AI-Assisted Game Design"
+style="width:100%; margin-bottom:1rem;"
+/>
 
 This postgraduate course explores how Artificial Intelligence can support and automate the game design process. Using the <a href="/projects/tag/">TAG framework</a> as the main experimental platform, students investigate AI agents, game spaces and metrics, automated playtesting, game parameter optimisation and quantitative methods for analysing and improving game designs. The course combines lectures with practical programming exercises that expose students to current research topics in AI-assisted game design.
 
@@ -58,7 +71,11 @@ This postgraduate course explores how Artificial Intelligence can support and au
 
 ## Game AI Seminar Series (MSc / PhD)
 
-*[Header image]*
+<img
+src="{{ '/assets/img/teaching/AIandGames.png' | relative_url }}"
+alt="Entity Component System"
+style="width:100%; margin-bottom:1rem;"
+/>
 
 A four-part seminar series introducing postgraduate students to the breadth of modern Game AI research. The series provides an overview of the field before exploring Statistical Forward Planning, General Video Game Playing and AI for Game Design, highlighting both the underlying algorithms and current research challenges. The seminars are intended as an entry point for students interested in pursuing research in Game AI.
 
