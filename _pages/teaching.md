@@ -1,12 +1,88 @@
 ---
 layout: page
-permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /teaching/
+description: Courses, lecture material and educational resources.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# Teaching
 
-Organize your courses by years, topics, or universities, however you like!
+[2–3 paragraph introduction]
+
+---
+
+## AI for Game Design (MSc / PhD)
+
+[Header image]
+
+Short description.
+
+### Overview
+
+...
+
+### Topics
+
+- ...
+- ...
+- ...
+
+### Practical Component
+
+...
+
+### Resources
+
+👉 Lecture Slides (4 lectures)
+
+👉 Exercises
+
+👉 Project page: TAG
+
+---
+
+## Statistical Planning and Reinforcement Learning (MSc)
+
+[Header image]
+
+...
+
+### Overview
+
+...
+
+### Topics
+
+...
+
+### Practical Component
+
+...
+
+### Resources
+
+👉 Lecture Slides
+
+👉 Exercises
+
+👉 Assignments
+
+👉 Video lectures
+
+👉 TAG
+
+👉 Pommerman
+
+---
+
+## Advanced Game Development (MSc)
+
+...
+
+---
+
+## Game AI Seminar Series (MSc / PhD)
+
+...
