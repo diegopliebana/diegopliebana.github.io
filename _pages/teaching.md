@@ -41,3 +41,29 @@ The course places a strong emphasis on professional development practices, with 
 - 📄 <strong>Lecture Slides</strong>: <a href="LECTURES_LINK">Lecture material</a>
 - 💻 <strong>Laboratory Sessions</strong>: <a href="LABS_LINK">Programming exercises and model solutions</a>
 - 📘 <strong>C++ Tutorial</strong>: <a href="CPP_LINK">Comprehensive reference slides</a>
+
+## AI for Game Design (MSc / PhD)
+
+*[Header image]*
+
+This postgraduate course explores how Artificial Intelligence can support and automate the game design process. Using the <a href="/projects/tag/">TAG framework</a> as the main experimental platform, students investigate AI agents, game spaces and metrics, automated playtesting, game parameter optimisation and quantitative methods for analysing and improving game designs. The course combines lectures with practical programming exercises that expose students to current research topics in AI-assisted game design.
+
+<strong>Resources</strong>
+
+- 📄 <strong>Lecture Slides</strong>: <a href="LECTURES_LINK">Lecture material</a>
+- 💻 <strong>Programming Exercises</strong>: <a href="EXERCISES_LINK">Hands-on exercises using TAG</a>
+- 📚 <strong>Extra Resources</strong>: <a href="EXTRA_LINK">Additional examples and research material</a>
+
+<strong>Related project:</strong> <a href="/projects/tag/">TAG — Tabletop Games Framework</a>
+
+## Game AI Seminar Series (MSc / PhD)
+
+*[Header image]*
+
+A four-part seminar series introducing postgraduate students to the breadth of modern Game AI research. The series provides an overview of the field before exploring Statistical Forward Planning, General Video Game Playing and AI for Game Design, highlighting both the underlying algorithms and current research challenges. The seminars are intended as an entry point for students interested in pursuing research in Game AI.
+
+<strong>Resources</strong>
+
+- 📄 <strong>Seminar Slides</strong>: <a href="SLIDES_LINK">Four seminar lectures</a>
+
+<strong>Related projects:</strong> <a href="/projects/gvgai/">GVGAI</a> · <a href="/projects/stratega/">Stratega</a> · <a href="/projects/ptsp/">PTSP</a> · <a href="/projects/tag/">TAG</a>
