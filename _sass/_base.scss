@@ -57,7 +57,7 @@ table.table a {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 100%;
 }
 
 blockquote {
@@ -638,12 +638,6 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
-  }
-
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
@@ -1183,26 +1177,118 @@ swiper-container {
   text-justify: inter-word;
 }
 
+/* ==========================================================================
+   Site-specific customisations
+   ========================================================================== */
 
+/*
+ * Wider desktop layout.
+ *
+ * Pages without a navigation pane can use the full 1280px container.
+ * Pages with a navigation pane reserve a dedicated 260px rail on the right.
+ */
+@media (min-width: 1200px) {
+  body .container,
+  main.container {
+    width: 100%;
+    max-width: 1280px !important;
+  }
+}
 
-/* Project overview cards */
+/* Keep article prose justified. */
+.post article p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
+/* ==========================================================================
+   Publications: remove empty preview column + dynamic filters
+   ========================================================================== */
+
+.publications ol.bibliography li .abbr {
+  display: none !important;
+}
+
+.publications ol.bibliography li .col-sm-8 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.publications ol.bibliography li .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pub-filter-panel {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+}
+
+#pub-search {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.4rem;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+}
+
+.pub-filter-group {
+  margin-bottom: 0.5rem;
+}
+
+.pub-filter {
+  margin: 0.15rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-theme-color);
+  cursor: pointer;
+}
+
+.pub-filter.active,
+.pub-filter:hover {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
+#pub-filter-status {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+/* ==========================================================================
+   Project overview cards
+   ========================================================================== */
+
+/*
+ * The current Projects page uses Bootstrap .row/.col-* columns.
+ * These rules deliberately avoid the old Masonry .grid-item/.grid-sizer
+ * classes so there is no second positioning system fighting Bootstrap.
+ */
 .project-overview-card {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
 .project-card-main-link {
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-direction: column;
   color: inherit;
   text-decoration: none !important;
 }
 
 .project-overview-image {
+  display: block;
   width: 100%;
   height: 190px;
   object-fit: cover;
@@ -1211,8 +1297,8 @@ swiper-container {
 
 .project-overview-card .card-body {
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-direction: column;
 }
 
 .project-overview-card .card-title {
@@ -1225,198 +1311,103 @@ swiper-container {
 }
 
 .project-card-footer {
-  padding: 0 1.25rem 1.25rem 1.25rem;
-}
-
-
-.projects .project-card-item {
-  min-width: 0;
-}
-
-.projects .project-card-item > a {
-  display: block;
-  height: 100%;
-  text-decoration: none;
-}
-
-.projects .project-card-item .card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-}
-
-.projects .project-card-item figure {
-  margin: 0;
-}
-
-.projects .project-card-item img {
-  display: block;
-  width: 100%;
-  height: 190px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.projects .project-card-item .card-body {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.projects .project-card-item .card-title {
-  font-size: 1.35rem;
-  min-height: 2.7rem;
-  margin-bottom: 0.75rem;
-}
-
-.projects .project-card-item .card-text {
-  flex-grow: 1;
-  margin-bottom: 1rem;
-}
-
-.projects .project-card-footer {
   margin-top: auto;
+  padding: 0 1.25rem 1.25rem;
 }
 
-@media (max-width: 991px) {
-  .projects .project-card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
+/* ==========================================================================
+   Reusable page navigation pane
+   ========================================================================== */
 
-@media (max-width: 575px) {
-  .projects .project-card-grid {
-    grid-template-columns: 1fr;
-  }
+.project-toc {
+  box-sizing: border-box;
+  padding: 1rem;
+  background: var(--global-bg-color);
+  border-left: 2px solid var(--global-divider-color);
+  font-size: 0.85rem;
+  line-height: 1.35;
 }
-
-/* Wider site on desktop */
-@media (min-width: 1200px) {
-  body .container {
-    max-width: 1240px !important;
-    width: 100%;
-  }
-}
-
-/* New project overview grid */
-.projects .project-card-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.75rem;
-  width: 100%;
-  position: static !important;
-}
-
-.projects .project-card-grid .project-card-item {
-  position: static !important;
-  width: auto !important;
-  max-width: none !important;
-  height: auto !important;
-  margin: 0 !important;
-  transform: none !important;
-}
-
-.projects .project-card-grid .project-card-item > a {
-  display: block;
-  height: 100%;
-}
-
-.projects .project-card-grid .card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.projects .project-card-grid .card img {
-  width: 100%;
-  height: 190px;
-  object-fit: cover;
-}
-
-.projects .project-card-grid .card-body {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-}
-
-.projects .project-card-grid .card-text {
-  flex: 1;
-}
-
-/* ==========================================
-   Sticky navigation pane
-   ========================================== */
 
 .project-toc-title {
-  font-weight: 700;
   margin-bottom: 0.6rem;
+  color: var(--global-text-color);
+  font-weight: 700;
 }
 
 .project-toc a {
   display: block;
   padding: 0.25rem 0;
+  color: var(--global-text-color-light);
   text-decoration: none;
 }
 
 .project-toc a:hover,
 .project-toc a.active {
   color: var(--global-theme-color);
+  text-decoration: none;
 }
 
 .project-toc-sub {
-  padding-left: 0.8rem;
   margin-bottom: 0.3rem;
+  padding-left: 0.8rem;
 }
 
 .project-toc-sub a {
   font-size: 0.8rem;
 }
 
+/*
+ * Desktop navigation:
+ *
+ * Reserve a real 260px rail inside every article containing .project-toc.
+ * The navigation itself is fixed in that rail. Because the article always
+ * has matching right padding, text can never render underneath the pane.
+ *
+ * We use both selectors below intentionally:
+ * - article:has(.project-toc) covers the current al-folio page structure.
+ * - .post:has(.project-toc) article is a fallback if the include moves.
+ */
 @media (min-width: 1200px) {
-  .project-toc {
-    position: sticky !important;
-    float: right;
+  article:has(.project-toc),
+  .post:has(.project-toc) article {
+    box-sizing: border-box;
+    padding-right: 260px !important;
+  }
 
+  .project-toc {
+    position: fixed !important;
     top: 6rem;
-    right: auto !important;
+    right: max(1.5rem, calc((100vw - 1280px) / 2 + 1.5rem));
+    float: none !important;
 
     width: 220px;
     max-width: 220px;
     max-height: calc(100vh - 8rem);
-
-    margin: 0 0 2rem 2.5rem;
-    padding: 1rem;
-
+    margin: 0;
     overflow-y: auto;
-    box-sizing: border-box;
-
-    background: var(--global-bg-color);
-    border-left: 2px solid var(--global-divider-color);
-
-    font-size: 0.85rem;
-    line-height: 1.35;
-
-    z-index: 10;
+    z-index: 20;
   }
 }
 
-/* On tablets / smaller screens put the TOC above the text */
+/*
+ * Tablets and phones:
+ * the navigation returns to the normal document flow above the content.
+ */
 @media (max-width: 1199px) {
+  article:has(.project-toc),
+  .post:has(.project-toc) article {
+    padding-right: 0 !important;
+  }
+
   .project-toc {
     position: static !important;
-    float: none;
-
+    float: none !important;
     width: 100%;
     max-width: none;
     max-height: none;
-
     margin: 1.5rem 0 2rem;
-    padding: 1rem;
-
+    overflow: visible;
     border: 1px solid var(--global-divider-color);
     border-radius: 0.5rem;
-
-    overflow: visible;
   }
 }
