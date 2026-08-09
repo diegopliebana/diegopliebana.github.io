@@ -1,31 +1,27 @@
-<div class="project-card-item">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes="400px"
-          alt=project.title
-        %}
-      {% endif %}
+<div class="card hoverable project-overview-card w-100">
+  <a href="{{ project.url | relative_url }}" class="project-card-main-link">
+    {% if project.img %}
+      <img
+        src="{{ project.img | relative_url }}"
+        class="project-overview-image"
+        alt="{{ project.title }}"
+      >
+    {% endif %}
 
-      <div class="card-body">
-        <h2 class="card-title">
-          {{ project.short_title | default: project.title }}
-        </h2>
+    <div class="card-body">
+      <h2 class="card-title">
+        {{ project.short_title | default: project.title }}
+      </h2>
 
-        <p class="card-text">{{ project.description }}</p>
-
-        {% if project.github %}
-          <div class="project-card-footer">
-            <a href="{{ project.github }}" aria-label="GitHub repository">
-              <i class="fa-brands fa-github gh-icon"></i>
-            </a>
-          </div>
-        {% endif %}
-      </div>
+      <p class="card-text">{{ project.description }}</p>
     </div>
   </a>
+
+  {% if project.github %}
+    <div class="project-card-footer">
+      <a href="{{ project.github }}" aria-label="GitHub repository">
+        <i class="fa-brands fa-github gh-icon"></i>
+      </a>
+    </div>
+  {% endif %}
 </div>
