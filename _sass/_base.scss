@@ -1231,7 +1231,7 @@ swiper-container {
 
 /* Leave room for the navigation panel on wide displays */
 @media (min-width: 1350px) {
-  .post article {
+  .post article:has(.project-toc) {
     padding-right: 230px;
   }
 }
@@ -1413,3 +1413,10 @@ swiper-container {
   }
 }
 
+/* Wider desktop layout */
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1240px;
+  }
+}
