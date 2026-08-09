@@ -1183,77 +1183,7 @@ swiper-container {
   text-justify: inter-word;
 }
 
-/* Project page sticky table of contents */
-.project-toc {
-  position: fixed;
-  top: 7rem;
-  right: max(1rem, calc((100vw - 1140px) / 2));
-  width: 210px;
-  max-height: calc(100vh - 9rem);
-  overflow-y: auto;
 
-  padding: 0.9rem 1rem;
-  border-left: 2px solid var(--global-divider-color);
-
-  font-size: 0.85rem;
-  line-height: 1.3;
-
-  background: var(--global-bg-color);
-  z-index: 20;
-}
-
-.project-toc-title {
-  font-weight: 700;
-  margin-bottom: 0.6rem;
-  color: var(--global-text-color);
-}
-
-.project-toc a {
-  display: block;
-  padding: 0.25rem 0;
-  color: var(--global-text-color-light);
-  text-decoration: none;
-}
-
-.project-toc a:hover,
-.project-toc a.active {
-  color: var(--global-theme-color);
-}
-
-.project-toc-sub {
-  padding-left: 0.8rem;
-  margin-bottom: 0.3rem;
-}
-
-.project-toc-sub a {
-  font-size: 0.8rem;
-}
-
-/* Leave room for the navigation panel on wide displays */
-@media (min-width: 1350px) {
-  .post article:has(.project-toc) {
-    padding-right: 230px;
-  }
-}
-
-/* On smaller displays, turn it into a normal block */
-@media (max-width: 1349px) {
-  .project-toc {
-    position: static;
-    width: 100%;
-    max-height: none;
-
-    margin: 1.5rem 0 2rem 0;
-    padding: 1rem;
-
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.5rem;
-  }
-
-  .project-toc-sub {
-    padding-left: 1rem;
-  }
-}
 
 /* Project overview cards */
 
@@ -1414,24 +1344,79 @@ swiper-container {
   flex: 1;
 }
 
-@media (min-width: 1350px) {
-  main.container {
-    max-width: 1280px !important;
-  }
+/* ==========================================
+   Sticky navigation pane
+   ========================================== */
 
-  main.container .post:has(.project-toc),
-  main.container article:has(.project-toc) {
-    padding-right: 240px;
+.project-toc-title {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.project-toc a {
+  display: block;
+  padding: 0.25rem 0;
+  text-decoration: none;
+}
+
+.project-toc a:hover,
+.project-toc a.active {
+  color: var(--global-theme-color);
+}
+
+.project-toc-sub {
+  padding-left: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.project-toc-sub a {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1200px) {
+  .project-toc {
+    position: sticky !important;
+    float: right;
+
+    top: 6rem;
+    right: auto !important;
+
+    width: 220px;
+    max-width: 220px;
+    max-height: calc(100vh - 8rem);
+
+    margin: 0 0 2rem 2.5rem;
+    padding: 1rem;
+
+    overflow-y: auto;
+    box-sizing: border-box;
+
+    background: var(--global-bg-color);
+    border-left: 2px solid var(--global-divider-color);
+
+    font-size: 0.85rem;
+    line-height: 1.35;
+
+    z-index: 10;
   }
 }
 
-@media (min-width: 1350px) {
+/* On tablets / smaller screens put the TOC above the text */
+@media (max-width: 1199px) {
   .project-toc {
-    position: fixed;
-    top: 7rem;
-    right: max(1rem, calc((100vw - 1280px) / 2));
-    width: 210px;
-    max-height: calc(100vh - 9rem);
-    overflow-y: auto;
+    position: static !important;
+    float: none;
+
+    width: 100%;
+    max-width: none;
+    max-height: none;
+
+    margin: 1.5rem 0 2rem;
+    padding: 1rem;
+
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+
+    overflow: visible;
   }
 }
