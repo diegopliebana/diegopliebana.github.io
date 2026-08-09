@@ -5,7 +5,55 @@ permalink: /cv/
 description: Academic CV.
 nav: true
 nav_order: 5
+
+toc:
+  - title: Top
+    id: top
+
+  - title: Profile
+    id: profile
+
+  - title: Academic Positions
+    id: academic-positions
+
+  - title: Education
+    id: education
+
+  - title: Research
+    id: research
+
+  - title: Selected Research Projects
+    id: research-projects
+
+  - title: Research Leadership & Service
+    id: leadership
+
+  - title: Research Funding & Collaboration
+    id: funding
+
+  - title: Supervision & Teaching
+    id: supervision
+
+  - title: Research Software
+    id: software
+
+  - title: Tabletop R&D
+    id: tabletop-rnd
+
+  - title: Selected Recognition
+    id: recognition
+
+  - title: Publications
+    id: publications
+
+  - title: Links
+    id: links
+    
 ---
+
+<div id="top"></div>
+
+{% include project_toc.liquid %}
 
 # Diego Perez-Liebana
 
@@ -20,7 +68,7 @@ Artificial Intelligence · Game AI · Statistical Forward Planning · Monte Carl
 
 ---
 
-# Profile
+<h1 id="profile">Profile</h1>
 
 I am a Distinguished Researcher at <a href="https://www.uc3m.es/">Universidad Carlos III de Madrid (UC3M)</a>. My research focuses on Artificial Intelligence for games, with particular interests in <strong>Statistical Forward Planning</strong>, <strong>Monte Carlo Tree Search (MCTS)</strong>, <strong>Rolling Horizon Evolutionary Algorithms</strong>, Reinforcement Learning, General Game Playing, and Artificial Intelligence for modern tabletop games.
 
@@ -30,7 +78,7 @@ I have published more than 150 research papers across Game AI, computational int
 
 ---
 
-# Academic Positions
+<h1 id="academic-positions">Academic Positions</h1>
 
 ### Universidad Carlos III de Madrid
 
@@ -66,9 +114,14 @@ Colchester, United Kingdom.
 2014–2015  
 Magdeburg, Germany.
 
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+
 ---
 
-# Education
+<h1 id="education">Education</h1>
 
 <strong>PhD in Computer Science</strong>  
 University of Essex, United Kingdom, 2015
@@ -83,7 +136,7 @@ Universidad Carlos III de Madrid, Spain, 2007
 
 ---
 
-# Research
+<h1 id="research">Research</h1>
 
 My research has centred on Artificial Intelligence methods that make decisions by reasoning about possible futures. Major themes include:
 
@@ -98,7 +151,7 @@ A survey I co-authored on Monte Carlo Tree Search has become one of the foundati
 
 ---
 
-# Selected Research Projects
+<h1 id="research-projects">Selected Research Projects</h1>
 
 ### <a href="/projects/tag/">Tabletop Games Framework (TAG)</a> — ongoing
 
@@ -120,9 +173,14 @@ A major international benchmark and competition ecosystem for General Video Game
 
 An early benchmark for real-time planning that supported research on MCTS with macro-actions, multi-objective MCTS and procedurally generated evaluation environments.
 
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+
 ---
 
-# Selected Research Leadership and Service
+<h1 id="leadership">Selected Research Leadership and Service</h1>
 
 I have held a range of organisational and editorial roles within the Game AI research community.
 
@@ -137,9 +195,14 @@ I have held a range of organisational and editorial roles within the Game AI res
 
 I regularly review for conferences and journals in Artificial Intelligence, computational intelligence, games and evolutionary computation.
 
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+
 ---
 
-# Research Funding and Collaboration
+<h1 id="funding">Research Funding and Collaboration</h1>
 
 I have secured and contributed to research funding from UK research councils, industry and innovation programmes.
 
@@ -153,9 +216,14 @@ Selected activities include:
 
 My research collaborations have included academic and industrial partners working across Game AI, machine learning, game development and computational creativity.
 
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+
 ---
 
-# Supervision and Teaching
+<h1 id="supervision">Supervision and Teaching</h1>
 
 I have supervised doctoral researchers working across planning, Reinforcement Learning, Game AI, tabletop games, Large Language Models and automated game analysis.
 
@@ -171,9 +239,15 @@ I have also supervised more than sixty undergraduate and postgraduate research p
 
 At Queen Mary University of London I also served as Programme Director of the MSc Artificial Intelligence.
 
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+
+
 ---
 
-# Research Software and Open Science
+<h1 id="software">Research Software and Open Science</h1>
 
 Much of my research is supported by publicly available software and benchmark environments.
 
@@ -183,7 +257,7 @@ Major frameworks include TAG, PyTAG, Stratega, GVGAI, Tribes and PTSP. These sys
 
 ---
 
-# Knowledge Transfer and Tabletop R&D
+<h1 id="tabletop-rnd">Knowledge Transfer and Tabletop R&D</h1>
 
 I am a co-founder and director of <a href="https://www.tabletoprnd.co.uk/">Tabletop R&D</a>, a Queen Mary University of London spin-out created to transfer research on Artificial Intelligence for tabletop games into practical tools for professional designers and publishers.
 
@@ -191,9 +265,14 @@ The company builds digital twins of tabletop games and uses automated AI playtes
 
 This work grew directly from research conducted with the <a href="/projects/tag/">TAG framework</a> and provides a pathway from academic Game AI research to applications in the creative industries.
 
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+
 ---
 
-# Selected Recognition
+<h1 id="recognition">Selected Recognition</h1>
 
 - Outstanding Associate Editor Award, IEEE Computational Intelligence Society, 2023.
 - Best Paper Award, IEEE Conference on Computational Intelligence and Games, 2012.
@@ -203,7 +282,7 @@ This work grew directly from research conducted with the <a href="/projects/tag/
 
 ---
 
-# Publications
+<h1 id="publications">Publications</h1>
 
 My complete publication record, including direct links to papers, can be found on the <a href="/publications/">Publications page</a>.
 
@@ -215,11 +294,16 @@ I am also a co-author of the book:
 
 ---
 
-# Links
+<h1 id="links">Links</h1>
 
 👉 <a href="/publications/">Publications</a>  
 👉 <a href="/projects/">Research Projects</a>  
 👉 <a href="/repositories/">Open-source Repositories</a>  
 👉 <a href="https://scholar.google.com/citations?user=bMLr-zgAAAAJ&hl=en">Google Scholar</a>  
 👉 <a href="https://orcid.org/0000-0003-1958-0212">ORCID</a>
-```
+
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
+
+<script src="{{ '/assets/js/project_toc.js' | relative_url }}"></script>
