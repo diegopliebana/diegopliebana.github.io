@@ -21,9 +21,9 @@ A postgraduate course on statistical planning methods for Game AI, combining lec
 
 <strong>Resources</strong>
 
-- 📄 <strong>Lecture Slides</strong>: <a href="LECTURES_LINK">Lecture decks</a>
-- 💻 <strong>Laboratory Sessions</strong>: <a href="LABS_LINK">Practical exercises</a>
-- 📝 <strong>Coursework</strong>: <a href="ASSIGNMENTS_LINK">Assignments and marking criteria</a>
+- 📄 <strong>Lecture Slides</strong>: [Lecture decks](https://drive.google.com/drive/folders/1JdFu9QAdxMZuYkjMkZmHvk5FsYm-rsIG?usp=sharing)
+- 💻 <strong>Laboratory Sessions</strong>: [Practical exercises](https://drive.google.com/drive/folders/1KqEB_0Nc69Ob5nnOHYX_kogkhqMYTaNp?usp=drive_link)
+- 📝 <strong>Coursework</strong>: [Assignments and marking criteria](https://drive.google.com/drive/folders/1ilUQ5H9JeQgRNuLkchOEV97sFDyWFGX7?usp=drive_link)
 - 🎥 <strong>Video Lectures (2022)</strong>: <a href="https://www.youtube.com/playlist?list=PLJjBMUE5A6DzfwUk7-I7WpKk022ZkRH_X">YouTube playlist</a>
 
 <strong>Related project:</strong> <a href="/projects/tag/">TAG — Tabletop Games Framework</a>
@@ -38,9 +38,9 @@ The course places a strong emphasis on professional development practices, with 
 
 <strong>Resources</strong>
 
-- 📄 <strong>Lecture Slides</strong>: <a href="LECTURES_LINK">Lecture material</a>
-- 💻 <strong>Laboratory Sessions</strong>: <a href="LABS_LINK">Programming exercises and model solutions</a>
-- 📘 <strong>C++ Tutorial</strong>: <a href="CPP_LINK">Comprehensive reference slides</a>
+- 📄 <strong>Lecture Slides</strong>: [Lecture material](https://drive.google.com/drive/folders/1rEtkgTsod95E79XIvwOqNfdb35UP0SOC?usp=drive_link)
+- 💻 <strong>Laboratory Sessions</strong>: [Programming exercises and model solutions](https://drive.google.com/drive/folders/1ACaMcjFxbTHjtmOCZpus9jUz9dYhNJsQ?usp=drive_link)
+- 📘 <strong>C++ Tutorial</strong>: [Comprehensive reference slides](https://docs.google.com/presentation/d/1v7_4cWXlDqc2P2Abbx3NHbk9ktBtqPhz/edit?usp=drive_link&ouid=105123930321315159774&rtpof=true&sd=true)
 
 ## AI for Game Design (MSc / PhD)
 
@@ -50,9 +50,9 @@ This postgraduate course explores how Artificial Intelligence can support and au
 
 <strong>Resources</strong>
 
-- 📄 <strong>Lecture Slides</strong>: <a href="LECTURES_LINK">Lecture material</a>
-- 💻 <strong>Programming Exercises</strong>: <a href="EXERCISES_LINK">Hands-on exercises using TAG</a>
-- 📚 <strong>Extra Resources</strong>: <a href="EXTRA_LINK">Additional examples and research material</a>
+- 📄 <strong>Lecture Slides</strong>: [Lecture material](https://drive.google.com/drive/folders/1P4p6j1sj5Jzp6ubfylsQgyQ7KC2jRAR4?usp=drive_link)
+- 💻 <strong>Programming Exercises</strong>: [Hands-on exercises using TAG](https://drive.google.com/drive/folders/1JMwPrMoaYEeImvl1cclpZXy0admVC3UP?usp=drive_link)
+- 📚 <strong>Extra Resources</strong>: [Additional examples and research material](https://drive.google.com/drive/folders/1ARL0cKNKX2SbhJHVC54kvZfse0o9xDOa?usp=drive_link)
 
 <strong>Related project:</strong> <a href="/projects/tag/">TAG — Tabletop Games Framework</a>
 
@@ -64,6 +64,6 @@ A four-part seminar series introducing postgraduate students to the breadth of m
 
 <strong>Resources</strong>
 
-- 📄 <strong>Seminar Slides</strong>: <a href="SLIDES_LINK">Four seminar lectures</a>
+- 📄 <strong>Seminar Slides</strong>: [Four-days seminar lectures](https://drive.google.com/drive/folders/1OZDAfdRr_sCBJkrB_XH3nHG8-4rEJUrs?usp=drive_link)
 
 <strong>Related projects:</strong> <a href="/projects/gvgai/">GVGAI</a> · <a href="/projects/stratega/">Stratega</a> · <a href="/projects/ptsp/">PTSP</a> · <a href="/projects/tag/">TAG</a>
