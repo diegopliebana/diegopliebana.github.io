@@ -1414,15 +1414,24 @@ swiper-container {
   flex: 1;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1350px) {
   main.container {
-    max-width: 1000px !important;
+    max-width: 1280px !important;
   }
 
-  main.container > .post,
-  main.container > .page,
-  main.container article {
-    max-width: none !important;
-    width: 100%;
+  main.container .post:has(.project-toc),
+  main.container article:has(.project-toc) {
+    padding-right: 240px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .project-toc {
+    position: fixed;
+    top: 7rem;
+    right: max(1rem, calc((100vw - 1280px) / 2));
+    width: 210px;
+    max-height: calc(100vh - 9rem);
+    overflow-y: auto;
   }
 }
