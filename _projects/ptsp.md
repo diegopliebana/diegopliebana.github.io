@@ -57,8 +57,6 @@ toc:
 
 *2011–2014*
 
-{% include project_toc.liquid %}
-
 The <strong>Physical Travelling Salesman Problem (PTSP)</strong> is a benchmark environment for Game AI that combines route planning, continuous control, and real-time decision making.
 
 Unlike the classical Travelling Salesman Problem, the objective is not only to determine the order in which waypoints should be visited, but also to control a spaceship with inertia and momentum while navigating around obstacles. This makes PTSP a challenging benchmark for search and planning algorithms such as Monte Carlo Tree Search and Evolutionary Algorithms.
