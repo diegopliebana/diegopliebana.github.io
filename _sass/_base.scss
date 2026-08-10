@@ -1319,15 +1319,24 @@ swiper-container {
    Pages with navigation pane
    ========================================================================== */
 
-.page-with-toc {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  column-gap: 3rem;
-  align-items: start;
-}
+/*
+ * The page layout itself provides the two columns:
+ *
+ *   .page-with-toc
+ *     .page-main-content
+ *     .page-toc-column
+ *
+ * This is deliberately structural: the navigation is not floated or fixed
+ * over the article, so the two areas cannot overlap.
+ */
 
 .page-main-content {
   min-width: 0;
+  width: 100%;
+}
+
+.page-with-toc {
+  width: 100%;
 }
 
 .page-toc-column {
@@ -1335,17 +1344,11 @@ swiper-container {
 }
 
 .project-toc {
-  position: sticky;
-  top: 6rem;
-
-  max-height: calc(100vh - 8rem);
-  overflow-y: auto;
-
+  box-sizing: border-box;
+  width: 100%;
   padding: 1rem;
-  border-left: 2px solid var(--global-divider-color);
-
   background: var(--global-bg-color);
-
+  border-left: 2px solid var(--global-divider-color);
   font-size: 0.85rem;
   line-height: 1.35;
 }
@@ -1358,7 +1361,6 @@ swiper-container {
 .project-toc a {
   display: block;
   padding: 0.25rem 0;
-
   color: var(--global-text-color-light);
   text-decoration: none;
 }
@@ -1378,24 +1380,54 @@ swiper-container {
   font-size: 0.8rem;
 }
 
-/* Tablet / mobile */
-@media (max-width: 991px) {
+/* Desktop: content + dedicated navigation column */
+@media (min-width: 992px) {
   .page-with-toc {
-    display: block;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 3rem;
+    align-items: start;
   }
 
   .page-toc-column {
-    margin-bottom: 2rem;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .page-main-content {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .project-toc {
+    position: sticky;
+    top: 6rem;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+  }
+}
+
+/* Tablet / mobile: TOC sits above the page content */
+@media (max-width: 991px) {
+  .page-with-toc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-toc-column {
+    order: 1;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-main-content {
+    order: 2;
   }
 
   .project-toc {
     position: static;
     max-height: none;
     overflow: visible;
-
-    margin: 1.5rem 0 2rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 0.5rem;
   }
 }
-
