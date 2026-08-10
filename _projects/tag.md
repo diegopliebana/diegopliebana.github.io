@@ -62,9 +62,9 @@ toc:
 
 The <strong>Tabletop Games Framework (TAG)</strong> is an open-source research platform for Artificial Intelligence in modern tabletop games. Unlike classical Game AI benchmarks centred on games such as Chess or Go, TAG focuses on modern designer board and card games, whose mechanics often combine stochasticity, hidden information, multiple players, asymmetric roles, resource management, large action spaces and complex strategic interactions.
 
-TAG provides a common software architecture in which games are implemented once and exposed through a unified interface to Artificial Intelligence algorithms. This makes it possible to investigate planning, optimisation, reinforcement learning, game analysis and automated playtesting across a diverse collection of games without developing a bespoke research environment for every experiment.
+TAG provides a common software architecture in which games are implemented once and exposed through a unified interface to AI players. This makes it possible to investigate planning, optimisation, reinforcement learning, game analysis and automated playtesting across a diverse collection of games without developing a bespoke research environment for every game.
 
-Since its introduction in 2020, TAG has grown from a framework containing a small collection of games into a substantial research ecosystem. It now supports dozens of tabletop games and has enabled several distinct research programmes, including a major body of work led by <strong>James Goodman</strong> on Monte Carlo Tree Search, multiplayer game analysis, skill and randomness, and AI-assisted game design, alongside research on Reinforcement Learning, automated game balancing and Large Language Models.
+Since its introduction in 2020, TAG has grown from a framework containing a small collection of games into a substantial research ecosystem. It now supports dozens of tabletop games and has enabled several distinct research programmes, including a major body of work on Monte Carlo Tree Search, multiplayer game analysis, skill and randomness, and AI-assisted game design, alongside research on Reinforcement Learning, automated game balancing and Large Language Models.
 
 The same underlying technology has also moved beyond academic research through <strong>Tabletop R&D</strong>, a Queen Mary University of London spin-out applying automated simulation and game analysis to commercial tabletop game development.
 
@@ -102,7 +102,7 @@ style="width:100%; margin-bottom:1rem;"
 
 TAG is a Java-based framework built around common representations of game states, actions, components, players and forward models.
 
-Games share a common API, allowing the same Artificial Intelligence agent to interact with very different tabletop games. Reusable components simplify the implementation of cards, decks, counters, boards, resources and other common tabletop mechanisms, while game data can be separated from program logic where appropriate.
+Games share a common API, allowing the same Artificial Intelligence player  to interact with very different tabletop games. Reusable components simplify the implementation of cards, decks, counters, boards, resources and other common tabletop mechanisms, while game data can be separated from program logic where appropriate.
 
 The framework also includes extensive logging and experimental functionality. Researchers can collect information about action spaces, branching factors, hidden information, game duration, player interaction and other characteristics, making TAG useful not only for benchmarking agents but also for studying the games themselves.
 
@@ -118,7 +118,7 @@ alt="Digital twins of tabletop games"
 style="width:100%; margin-bottom:1rem;"
 />
 
-A computational implementation in TAG can be viewed as a <strong>digital twin</strong> of a physical tabletop game: a machine-readable version of the rules and state of the game that can be played automatically by Artificial Intelligence agents.
+A computational implementation in TAG can be viewed as a <strong>digital twin</strong> of a physical tabletop game: a machine-readable version of the rules and state of the game that can be played automatically by Artificial Intelligence players.
 
 Once such a digital representation exists, a game no longer has to be evaluated solely through individual human play sessions. AI agents can generate thousands of complete play traces, making it possible to investigate questions about balance, strategies, game length, scoring, player position, card usage and many other aspects of the design.
 
@@ -214,11 +214,13 @@ Taken together, this work provides quantitative tools for addressing questions t
 <div class="row">
 
 <div class="col-sm-7" markdown="1">
-Another important strand of research <strong>led by James Goodman</strong> has investigated how Artificial Intelligence can support tabletop game designers during development rather than merely play finished games.
+Another important strand of research has investigated how Artificial Intelligence can support tabletop game designers during development rather than merely play finished games.
 In <em>A Case Study in AI-Assisted Board Game Design</em>, Goodman and colleagues followed the development of an analogue board game while incorporating automated AI playtesting alongside conventional human playtesting. The study examined the kinds of questions that arise during iterative game design and how large-scale simulation can provide additional evidence to help designers answer them.
 The resulting approach is explicitly <strong>designer-in-the-loop</strong>. The designer determines which aspects of a game need investigation; AI agents generate large quantities of gameplay data; appropriate metrics are extracted from those simulations; and the results are interpreted together with evidence obtained from human playtesting.
+  
 A central conclusion of this work is that automated playtesting should <strong>complement rather than replace human playtesting</strong>. Artificial Intelligence is particularly valuable for questions that benefit from large numbers of repeated games and quantitative analysis, while human players remain essential for evaluating subjective qualities such as enjoyment, clarity, engagement and theme.
-This James Goodman-led research established an important bridge between the academic work conducted with TAG and the subsequent practical application of automated playtesting and game analysis in Tabletop R&D.
+
+This research established an important bridge between the academic work conducted with TAG and the subsequent practical application of automated playtesting and game analysis in Tabletop R&D.
 </div>
 
 <div class="col-sm-5" markdown="1">
@@ -250,9 +252,11 @@ This direction expands the role of TAG again: from evaluating hand-designed plan
 <div class="row">
 
 <div class="col-sm-7" markdown="1">
-The research programme around TAG ultimately led to the creation of <strong>Tabletop R&D</strong>, a Queen Mary University of London spin-out company focused on AI-assisted playtesting and quantitative game analysis.
+The research programme around TAG ultimately led to the creation of <strong>Tabletop R&D</strong>, a Queen Mary University of London spin-out company focused on AI-assisted playtesting and quantitative game analysis, co-founded by Diego Perez Liebana and Raluca Gaina.
+  
 Tabletop R&D builds digital twins of commercial tabletop games and uses automated agents to simulate thousands of games in minutes. The resulting gameplay data can be analysed to answer specific questions from designers and publishers, including game balance, scoring, strategy strength, player-order effects, card usage, action frequencies and victory conditions.
 The objective is to supplement rather than replace traditional playtesting. Automated simulation is particularly useful for questions requiring large numbers of repetitions, while human playtesters remain central to evaluating subjective qualities such as enjoyment, clarity, theme and engagement.
+
 This commercial application demonstrates a direct pathway from research infrastructure and Game AI algorithms to practical tools for the creative industries.
 👉 <a href="https://www.tabletoprnd.co.uk/">Tabletop R&D website</a>
 </div>
