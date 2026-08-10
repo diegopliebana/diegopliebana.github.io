@@ -2,45 +2,44 @@
 layout: default
 ---
 
-{% if page.toc %}
-  <div class="page-with-toc">
+{% if page._styles %}
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
 
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.toc %}
+    <div class="page-with-toc">
+      <article class="page-main-content">
+        {{ content }}
+      </article>
+
+      <aside class="page-toc-column" aria-label="Page navigation">
+        {% include project_toc.liquid %}
+      </aside>
+    </div>
+  {% else %}
     <article class="page-main-content">
       {{ content }}
-
-      {% if page.related_publications %}
-        <h2>References</h2>
-        <div class="publications">
-          {% bibliography --cited_in_order %}
-        </div>
-      {% endif %}
-
-      {% if site.giscus and page.giscus_comments %}
-        {% include giscus.liquid %}
-      {% endif %}
     </article>
+  {% endif %}
 
-    <aside class="page-toc-column">
-      {% include project_toc.liquid %}
-    </aside>
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
 
-  </div>
-
-{% else %}
-
-  <article class="page-main-content">
-    {{ content }}
-
-    {% if page.related_publications %}
-      <h2>References</h2>
-      <div class="publications">
-        {% bibliography --cited_in_order %}
-      </div>
-    {% endif %}
-
-    {% if site.giscus and page.giscus_comments %}
-      {% include giscus.liquid %}
-    {% endif %}
-  </article>
-
-{% endif %}
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>
