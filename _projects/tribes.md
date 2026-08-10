@@ -51,8 +51,6 @@ toc:
 
 *2019–2021*
 
-{% include project_toc.liquid %}
-
 Tribes is a turn-based strategy game framework created for Artificial Intelligence research. It was developed as a research-oriented implementation inspired by <a href="https://polytopia.io/">The Battle of Polytopia</a>, preserving many of the characteristics that make modern strategy games challenging for AI while exposing the game state and forward model required for algorithmic experimentation.
 
 The framework was developed within the <strong>EPSRC New Investigator Award "Abstract Forward Models for Modern Games"</strong> (EP/T008962/1), which investigated how Statistical Forward Planning methods could be applied to more complex modern games. Tribes served as one of the project's main testbeds alongside Stratega.
