@@ -137,9 +137,11 @@ style="width:100%;"
 />
 
 The PTSP benchmark was later extended into a <strong>multi-objective optimisation</strong> problem, where agents were required to optimise several conflicting objectives simultaneously rather than simply minimising completion time.
+
 In addition to visiting all waypoints as quickly as possible, controllers were evaluated according to criteria such as <strong>fuel consumption</strong>, <strong>damage sustained</strong>, and overall route efficiency. This transformed PTSP from a single-objective planning benchmark into a richer decision-making environment representative of many real-world optimisation problems.
 
 This extension motivated the development of <strong>Multi-Objective Monte Carlo Tree Search (MO-MCTS)</strong>, an adaptation of MCTS capable of balancing competing objectives during search without requiring them to be combined into a single scalar reward. The resulting algorithms demonstrated that statistical forward planning could be effectively applied to multi-objective optimisation, while also providing valuable insights into the trade-offs between different planning strategies.
+
 The benchmark also formed the basis of the <strong>Multi-Objective Physical Travelling Salesman Problem Competition</strong>, encouraging the Game AI community to investigate planning algorithms capable of handling multiple conflicting objectives under real-time constraints.
 
 ---
