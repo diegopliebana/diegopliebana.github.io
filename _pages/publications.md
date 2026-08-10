@@ -24,7 +24,7 @@ nav_order: 2
   <button class="pub-filter" data-filter="workshop">Workshops</button>
   <button class="pub-filter" data-filter="book">Books</button>
   <button class="pub-filter" data-filter="bookchapter">Book chapters</button>
-  <button class="pub-filter" data-tag="phd">PhD Thesis</button>
+  <button class="pub-filter" data-filter="phd">PhD Thesis</button>
 </div>
 
 <div class="pub-filter-group">
