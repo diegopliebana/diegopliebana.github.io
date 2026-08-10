@@ -1320,14 +1320,12 @@ swiper-container {
    ========================================================================== */
 
 /*
- * The page layout itself provides the two columns:
+ * Structural two-column layout.
  *
- *   .page-with-toc
- *     .page-main-content
- *     .page-toc-column
- *
- * This is deliberately structural: the navigation is not floated or fixed
- * over the article, so the two areas cannot overlap.
+ * IMPORTANT: the ASIDE (.page-toc-column), not the inner navigation box,
+ * is sticky. A sticky child whose parent is only as tall as the child has
+ * no room in which to move; making the grid item itself sticky lets the
+ * navigation follow the viewport while remaining in its own column.
  */
 
 .page-main-content {
@@ -1380,7 +1378,7 @@ swiper-container {
   font-size: 0.8rem;
 }
 
-/* Desktop: content + dedicated navigation column */
+/* Desktop: content + dedicated sticky navigation column */
 @media (min-width: 992px) {
   .page-with-toc {
     display: grid;
@@ -1389,21 +1387,27 @@ swiper-container {
     align-items: start;
   }
 
-  .page-toc-column {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
   .page-main-content {
     grid-column: 1;
     grid-row: 1;
   }
 
-  .project-toc {
+  .page-toc-column {
+    grid-column: 2;
+    grid-row: 1;
+
     position: sticky;
-    top: 6rem;
-    max-height: calc(100vh - 8rem);
+    top: 5rem;
+    align-self: start;
+
+    max-height: calc(100vh - 6.5rem);
     overflow-y: auto;
+  }
+
+  .project-toc {
+    position: static;
+    max-height: none;
+    overflow: visible;
   }
 }
 
@@ -1415,7 +1419,10 @@ swiper-container {
   }
 
   .page-toc-column {
+    position: static;
     order: 1;
+    max-height: none;
+    overflow: visible;
     margin-bottom: 1.5rem;
   }
 
