@@ -53,8 +53,6 @@ toc:
 
 <div id="top"></div>
 
-{% include project_toc.liquid %}
-
 # Diego Perez-Liebana
 
 <strong>Distinguished Researcher, Universidad Carlos III de Madrid</strong>
