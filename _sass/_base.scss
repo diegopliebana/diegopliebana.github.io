@@ -1378,7 +1378,7 @@ swiper-container {
   font-size: 0.8rem;
 }
 
-/* Desktop: content + dedicated sticky navigation column */
+/* Desktop: content + fixed navigation column */
 @media (min-width: 992px) {
   .page-with-toc {
     display: grid;
@@ -1395,19 +1395,18 @@ swiper-container {
   .page-toc-column {
     grid-column: 2;
     grid-row: 1;
-
-    position: sticky;
-    top: 5rem;
-    align-self: start;
-
-    max-height: calc(100vh - 6.5rem);
-    overflow-y: auto;
+    min-width: 220px;
   }
 
   .project-toc {
-    position: static;
-    max-height: none;
-    overflow: visible;
+    position: fixed;
+    top: 5rem;
+
+    width: 220px;
+    max-height: calc(100vh - 6.5rem);
+    overflow-y: auto;
+
+    box-sizing: border-box;
   }
 }
 
