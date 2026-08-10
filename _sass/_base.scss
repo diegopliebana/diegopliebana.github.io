@@ -1320,25 +1320,34 @@ swiper-container {
    ========================================================================== */
 
 /*
- * Structural two-column layout.
- *
- * IMPORTANT: the ASIDE (.page-toc-column), not the inner navigation box,
- * is sticky. A sticky child whose parent is only as tall as the child has
- * no room in which to move; making the grid item itself sticky lets the
- * navigation follow the viewport while remaining in its own column.
+ * Robust layout:
+ * - the page content and TOC are real grid columns;
+ * - the TOC column stretches to the full height of the article;
+ * - the INNER nav is sticky inside that tall column;
+ * - no fixed positioning, floats, :has(), or compensating padding.
  */
+
+.page-with-toc {
+  width: 100%;
+}
 
 .page-main-content {
   min-width: 0;
   width: 100%;
 }
 
-.page-with-toc {
-  width: 100%;
-}
-
 .page-toc-column {
   min-width: 0;
+}
+
+/* Keep these ancestors transparent to sticky positioning. */
+main,
+main.container,
+.post,
+.page-with-toc,
+.page-main-content,
+.page-toc-column {
+  overflow: visible;
 }
 
 .project-toc {
@@ -1353,6 +1362,7 @@ swiper-container {
 
 .project-toc-title {
   margin-bottom: 0.6rem;
+  color: var(--global-text-color);
   font-weight: 700;
 }
 
@@ -1378,13 +1388,19 @@ swiper-container {
   font-size: 0.8rem;
 }
 
-/* Desktop: content + fixed navigation column */
+/* Desktop */
 @media (min-width: 992px) {
   .page-with-toc {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 220px;
-    gap: 3rem;
-    align-items: start;
+    column-gap: 3rem;
+
+    /*
+     * Stretch is intentional: it makes .page-toc-column as tall as the
+     * article row. That gives the sticky nav a long containing block in
+     * which it can remain attached to the viewport while scrolling.
+     */
+    align-items: stretch;
   }
 
   .page-main-content {
@@ -1395,22 +1411,20 @@ swiper-container {
   .page-toc-column {
     grid-column: 2;
     grid-row: 1;
-    min-width: 220px;
+    position: relative;
+    align-self: stretch;
+    height: 100%;
   }
 
   .project-toc {
-    position: fixed;
+    position: sticky;
     top: 5rem;
-
-    width: 220px;
     max-height: calc(100vh - 6.5rem);
     overflow-y: auto;
-
-    box-sizing: border-box;
   }
 }
 
-/* Tablet / mobile: TOC sits above the page content */
+/* Tablet / mobile */
 @media (max-width: 991px) {
   .page-with-toc {
     display: flex;
@@ -1418,10 +1432,8 @@ swiper-container {
   }
 
   .page-toc-column {
-    position: static;
     order: 1;
-    max-height: none;
-    overflow: visible;
+    height: auto;
     margin-bottom: 1.5rem;
   }
 
