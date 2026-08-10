@@ -70,7 +70,7 @@ Unlike benchmark environments designed around a fixed collection of games, Strat
 
 Stratega was created to provide a modern research platform capable of supporting a wide range of turn-based games without requiring a new engine for every project.
 
-The framework combines a generic game engine with a configurable rule system, enabling researchers to define games, experiment with different AI techniques, and benchmark algorithms within a common software architecture. Research conducted using Stratega has led to advances in <strong>Elastic Monte Carlo Tree Search</strong>, <strong>Portfolio Search</strong>, state abstraction, automatic game balancing, and Artificial Intelligence for strategy games.
+The framework combines a generic game engine with a configurable rule system, enabling researchers to define games, experiment with different AI techniques, and benchmark algorithms within a common software architecture. Research conducted using Stratega has led to advances in <strong>Portfolio Search</strong>, state abstraction, automatic game balancing, and Artificial Intelligence for strategy games, as well as to the development of new algorithms such as <strong>Elastic Monte Carlo Tree Search</strong>.
 
 ---
 
@@ -100,13 +100,11 @@ alt="Portfolio Search and Optimisation"
 style="width:100%; margin-bottom:1rem;"
 />
 
-Rather than relying on a single planning algorithm, Stratega enabled the development of <strong>Portfolio Search</strong>, an approach that combines multiple search algorithms into a single adaptive decision-making framework.
+One of the main challenges in strategy games is their enormous action space. Rather than searching directly over primitive actions, this work introduced <strong>portfolio search</strong>, where the planner selects among a collection of high-level scripts that automatically generate unit actions. By searching over scripts instead of individual actions, the branching factor is dramatically reduced while preserving meaningful tactical decisions.
 
-Different planning methods often excel under different game characteristics. While Monte Carlo Tree Search may perform well in some situations, Rolling Horizon Evolutionary Algorithms, heuristic search, or greedy approaches can be more effective in others. Portfolio Search investigates how these complementary algorithms can be combined and automatically selected to improve overall performance across a diverse collection of strategy games.
+Building on this abstraction, we developed new portfolio-based planning algorithms, including <strong>Portfolio Rolling Horizon Evolutionary Algorithms (PRHEA)</strong> and several multi-objective and sparse variants. We also investigated the <strong>automatic optimisation of portfolios</strong> using NTBEA, demonstrating that automatically generated portfolios consistently outperform manually designed ones across a diverse collection of strategy games.
 
-Building on this idea, the project introduced techniques for <strong>automatically optimising planning portfolios</strong>. Rather than manually selecting which algorithms should be included, optimisation methods search the space of possible portfolios to identify combinations that maximise performance across multiple games while remaining computationally efficient.
-
-These methods demonstrated that carefully designed algorithm portfolios can outperform individual planning algorithms, providing a practical route towards more robust and general strategy-game agents.
+This work established portfolio search as an effective form of action abstraction, significantly improving both the efficiency and performance of forward planning in Stratega.
 
 ---
 
@@ -117,10 +115,14 @@ src="{{ '/assets/img/projects/stratega/elastic.png' | relative_url }}"
 alt="Elastic Monte Carlo Tree Search"
 style="width:100%;"
 />
+
 One of the main methodological contributions developed within Stratega is <strong>Elastic Monte Carlo Tree Search (Elastic MCTS)</strong>.
 This work, led by <strong>Linjie Xu</strong> with Alexander Dockhorn and Diego Perez-Liebana, investigates how abstraction can be dynamically adapted during Monte Carlo Tree Search. Instead of using a single fixed representation throughout search, Elastic MCTS can operate at different levels of abstraction and progressively refine the representation when additional detail becomes useful.
+
 The approach addresses an important tension in planning: abstract representations can make search substantially more efficient, but excessive abstraction may discard strategically important information. Elastic MCTS provides a mechanism for balancing these competing requirements during search.
+
 The work was evaluated across strategy-game environments in Stratega and became the basis of a broader research programme on state and action abstraction for General Strategy Game Playing.
+
 ---
 
 <h3 id="configurable-rules">Configurable Rule System</h3>
