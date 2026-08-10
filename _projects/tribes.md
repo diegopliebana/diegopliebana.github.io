@@ -47,8 +47,6 @@ toc:
 
 <div id="top"></div>
 
-# Tribes
-
 *2019–2021*
 
 Tribes is a turn-based strategy game framework created for Artificial Intelligence research. It was developed as a research-oriented implementation inspired by <a href="https://polytopia.io/">The Battle of Polytopia</a>, preserving many of the characteristics that make modern strategy games challenging for AI while exposing the game state and forward model required for algorithmic experimentation.
