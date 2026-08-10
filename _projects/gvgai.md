@@ -52,8 +52,6 @@ toc:
 
 *2013–2019*
 
-{% include project_toc.liquid %}
-
 The <strong>General Video Game Artificial Intelligence (GVGAI)</strong> framework is an open-source benchmark designed to evaluate Artificial Intelligence across a diverse collection of video games. Rather than specialising in a single game, GVGAI challenges agents to play previously unseen games using either forward planning or learning, depending on the competition track.
 
 Originally developed at the University of Essex, GVGAI evolved into one of the most widely adopted benchmark environments in Game AI. It supported hundreds of research papers, multiple international competitions, and became a standard platform for research on planning, reinforcement learning, procedural content generation, automated game design, and explainable AI.
