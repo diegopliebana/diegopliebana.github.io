@@ -25,8 +25,6 @@ toc:
 
 <div id="top"></div>
 
-{% include project_toc.liquid %}
-
 
 Artificial Intelligence is one of the few disciplines where teaching and research evolve at an exceptional pace. The material collected on this page brings together a selection of postgraduate courses that I have designed and delivered over the past decade, covering topics ranging from Game AI and Statistical Planning to modern Game Development and AI-assisted Game Design. Each course combines theoretical foundations with practical exercises based on research software and benchmarks developed within my research, providing students with hands-on experience using the same tools and methodologies employed in contemporary Game AI research.
 
