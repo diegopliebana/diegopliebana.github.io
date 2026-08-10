@@ -81,7 +81,7 @@ I have published more than 150 research papers across Game AI, computational int
 ### Universidad Carlos III de Madrid
 
 <strong>Distinguished Researcher</strong>  
-2026–present  
+July 2026–present  
 Madrid, Spain
 
 ### Queen Mary University of London
@@ -129,7 +129,7 @@ Research on Monte Carlo Tree Search, Rolling Horizon Evolutionary Algorithms and
 <strong>MSc in Computer Science</strong>  
 Universidad Carlos III de Madrid, Spain, 2008
 
-<strong>Ingeniería Informática</strong>  
+<strong>Ingeniería Informática (Computer Science Engineering)</strong>  
 Universidad Carlos III de Madrid, Spain, 2007
 
 ---
@@ -144,8 +144,6 @@ My research has centred on Artificial Intelligence methods that make decisions b
 - <strong>Strategy Games:</strong> abstraction, planning and general decision-making methods for complex turn-based games.
 - <strong>Tabletop Games:</strong> planning, Multi-Agent Reinforcement Learning, game characterisation, automated playtesting and AI-assisted game design.
 - <strong>AI and Game Design:</strong> quantitative analysis, balancing, digital twins, quality-diversity methods and Large Language Models.
-
-A survey I co-authored on Monte Carlo Tree Search has become one of the foundational references in the field.
 
 ---
 
@@ -184,6 +182,7 @@ I have held a range of organisational and editorial roles within the Game AI res
 
 - <strong>General Chair</strong>, IEEE Conference on Games, London, 2019.
 - <strong>Program Chair</strong>, IEEE Conference on Games, 2022.
+- <strong>Program Chair</strong>, IEEE Conference on Games, 2026.
 - <strong>Associate Editor</strong>, IEEE Transactions on Games.
 - Recipient of the <strong>2023 Outstanding Associate Editor Award</strong> from the IEEE Computational Intelligence Society.
 - Co-organiser of <strong>Dagstuhl Seminar 22251: Computational Creativity for Game Development</strong>, 2022.
@@ -257,7 +256,7 @@ Major frameworks include TAG, PyTAG, Stratega, GVGAI, Tribes and PTSP. These sys
 
 <h1 id="tabletop-rnd">Knowledge Transfer and Tabletop R&D</h1>
 
-I am a co-founder and director of <a href="https://www.tabletoprnd.co.uk/">Tabletop R&D</a>, a Queen Mary University of London spin-out created to transfer research on Artificial Intelligence for tabletop games into practical tools for professional designers and publishers.
+I am a co-founder of <a href="https://www.tabletoprnd.co.uk/">Tabletop R&D</a>, a Queen Mary University of London spin-out created to transfer research on Artificial Intelligence for tabletop games into practical tools for professional designers and publishers.
 
 The company builds digital twins of tabletop games and uses automated AI playtesting to generate large-scale quantitative evidence about balance, strategies, scoring systems and gameplay dynamics.
 
@@ -276,7 +275,6 @@ This work grew directly from research conducted with the <a href="/projects/tag/
 - Best Paper Award, IEEE Conference on Computational Intelligence and Games, 2012.
 - Best Paper Award, EvoStar, 2011.
 - BCS SGAI Intelligence Prize, 2012.
-- Multiple best-paper nominations at IEEE CIG/CoG.
 
 ---
 
