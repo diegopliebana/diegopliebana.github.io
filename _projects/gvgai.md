@@ -48,8 +48,6 @@ toc:
 
 <div id="top"></div>
 
-# General Video Game Artificial Intelligence (GVGAI)
-
 *2013–2019*
 
 The <strong>General Video Game Artificial Intelligence (GVGAI)</strong> framework is an open-source benchmark designed to evaluate Artificial Intelligence across a diverse collection of video games. Rather than specialising in a single game, GVGAI challenges agents to play previously unseen games using either forward planning or learning, depending on the competition track.
