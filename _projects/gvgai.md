@@ -52,7 +52,7 @@ toc:
 
 The <strong>General Video Game Artificial Intelligence (GVGAI)</strong> framework is an open-source benchmark designed to evaluate Artificial Intelligence across a diverse collection of video games. Rather than specialising in a single game, GVGAI challenges agents to play previously unseen games using either forward planning or learning, depending on the competition track.
 
-Originally developed at the University of Essex, GVGAI evolved into one of the most widely adopted benchmark environments in Game AI. It supported hundreds of research papers, multiple international competitions, and became a standard platform for research on planning, reinforcement learning, procedural content generation, automated game design, and explainable AI.
+Originally developed at the University of Essex, GVGAI evolved into a widely adopted benchmark environments in Game AI. It supported hundreds of research papers, multiple international competitions, and became a standard platform for research on planning, reinforcement learning, procedural content generation and automated game design.
 
 ---
 
@@ -76,7 +76,7 @@ The framework evolved considerably over the years, expanding from a planning com
 
 GVGAI introduced one of the first benchmark environments specifically designed for <strong>General Video Game Playing</strong>. Unlike traditional Game AI research, which often focuses on a single game, GVGAI evaluates an agent's ability to perform well across a large collection of games featuring different mechanics, objectives, dynamics and visual styles.
 
-The framework is based on the <strong>Video Game Description Language (VGDL)</strong>, allowing new games to be created quickly while maintaining a common interface for AI agents. This combination of diversity and standardisation made GVGAI one of the most widely used benchmarking platforms in academic Game AI research.
+The framework is based on the <strong>Video Game Description Language (VGDL)</strong>, allowing new games to be created quickly while maintaining a common interface for AI agents. This combination of diversity and standardisation made GVGAI a widely used benchmarking platforms in academic Game AI research.
 
 ---
 
@@ -88,11 +88,11 @@ alt="Statistical Forward Planning"
 style="width:100%; margin-bottom:1rem;"
 />
 
-One of GVGAI's major research contributions was establishing <strong>Statistical Forward Planning (SFP)</strong> as a central paradigm for Game AI.
+One of GVGAI's major research contributions was the use of <strong>Statistical Forward Planning (SFP)</strong> for Game AI.
 
 The framework provides a forward model that allows agents to simulate future game states before selecting actions. This enabled extensive research into <strong>Monte Carlo Tree Search</strong>, <strong>Rolling Horizon Evolutionary Algorithms</strong>, <strong>Portfolio Search</strong>, <strong>heuristic search</strong>, and numerous hybrid planning approaches.
 
-Many planning algorithms developed and evaluated within GVGAI later influenced research on board games, strategy games, model-based reinforcement learning, and explainable AI.
+Many planning algorithms developed and evaluated within GVGAI later influenced research on board games, strategy games, and model-based reinforcement learning.
 
 ---
 
@@ -128,7 +128,7 @@ alt="Procedural Content Generation"
 style="width:100%; margin-bottom:1rem;"
 />
 
-GVGAI was later expanded with several <strong>Procedural Content Generation (PCG)</strong> competitions covering level generation, rule generation, and automatic game design.
+GVGAI was later expanded with several <strong>Procedural Content Generation (PCG)</strong> competitions covering level and rule generation.
 
 These tracks transformed GVGAI into a broader ecosystem for Game AI research, allowing researchers to investigate not only how to play games, but also how to generate new games and game content automatically.
 
