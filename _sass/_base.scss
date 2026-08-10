@@ -1492,3 +1492,9 @@ main.container,
 .page-main-content li {
   max-width: 68ch;
 }
+
+.page-main-content h1,
+.page-main-content h2,
+.page-main-content h3 {
+  font-weight: 600;
+}
