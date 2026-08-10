@@ -53,8 +53,6 @@ toc:
 
 <div id="top"></div>
 
-# Physical Travelling Salesman Problem
-
 *2011–2014*
 
 The <strong>Physical Travelling Salesman Problem (PTSP)</strong> is a benchmark environment for Game AI that combines route planning, continuous control, and real-time decision making.
