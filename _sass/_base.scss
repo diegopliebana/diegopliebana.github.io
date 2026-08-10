@@ -1483,3 +1483,12 @@ main.container,
   margin-top: 1.4rem;
   margin-bottom: 0.6rem;
 }
+
+.page-main-content {
+  font-size: inherit;
+}
+
+.page-main-content p,
+.page-main-content li {
+  max-width: 68ch;
+}
