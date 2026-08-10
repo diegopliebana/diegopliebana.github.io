@@ -58,8 +58,6 @@ toc:
 
 <div id="top"></div>
 
-# Stratega
-
 *2019–2023*
 
 Stratega is an open-source framework designed for research on Artificial Intelligence in turn-based strategy games. Developed as part of the <strong>EPSRC New Investigator Award "Abstract Forward Models"</strong> (EP/T008962/1), the framework provides a highly configurable environment where researchers can rapidly prototype games, implement AI agents, and evaluate planning and learning algorithms under reproducible experimental conditions.
