@@ -7,9 +7,21 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article>
+{% if page.toc %}
+  <div class="page-with-toc">
+    <article class="page-main-content">
+      {{ content }}
+    </article>
+
+    <aside class="page-toc-column">
+      {% include project_toc.liquid %}
+    </aside>
+  </div>
+{% else %}
+  <article class="page-main-content">
     {{ content }}
   </article>
+{% endif %}
 
   {% if page.related_publications %}
     <h2>References</h2>
