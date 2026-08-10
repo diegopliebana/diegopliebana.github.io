@@ -58,8 +58,6 @@ toc:
 
 <div id="top"></div>
 
-# Tabletop Games Framework (TAG)
-
 *2020–Present*
 
 The <strong>Tabletop Games Framework (TAG)</strong> is an open-source research platform for Artificial Intelligence in modern tabletop games. Unlike classical Game AI benchmarks centred on games such as Chess or Go, TAG focuses on modern designer board and card games, whose mechanics often combine stochasticity, hidden information, multiple players, asymmetric roles, resource management, large action spaces and complex strategic interactions.
