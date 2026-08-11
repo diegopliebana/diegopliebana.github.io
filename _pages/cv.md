@@ -22,9 +22,6 @@ toc:
   - title: Research
     id: research
 
-  - title: Selected Research Projects
-    id: research-projects
-
   - title: Research Leadership & Service
     id: leadership
 
@@ -147,35 +144,6 @@ My research has centred on Artificial Intelligence methods that make decisions b
 - <strong>Strategy Games:</strong> abstraction, planning and general decision-making methods for complex turn-based games.
 - <strong>Tabletop Games:</strong> planning, Multi-Agent Reinforcement Learning, game characterisation, automated playtesting and AI-assisted game design.
 - <strong>AI and Game Design:</strong> quantitative analysis, balancing, digital twins, quality-diversity methods and Large Language Models.
-
----
-
-<h1 id="research-projects">Selected Research Projects</h1>
-
-### <a href="/projects/tag/">Tabletop Games Framework (TAG)</a> — ongoing
-
-An open-source research ecosystem for Artificial Intelligence in modern tabletop games. TAG supports planning, Reinforcement Learning through PyTAG, quantitative game analysis, automated playtesting and AI-assisted game design.
-
-### <a href="/projects/stratega/">Stratega</a>
-
-A configurable framework for General Strategy Game Playing developed within research on Abstract Forward Models. Work using Stratega includes Portfolio Search, state and action abstraction, Elastic MCTS and automated point-cost estimation.
-
-### <a href="/projects/tribes/">Tribes</a>
-
-A research-oriented strategy game inspired by The Battle of Polytopia, used to investigate Statistical Forward Planning, Portfolio MCTS, Progressive Unpruning and MAP-Elites for diverse play-styles.
-
-### <a href="/projects/gvgai/">General Video Game Artificial Intelligence (GVGAI)</a>
-
-A major international benchmark and competition ecosystem for General Video Game Playing, spanning planning, learning without forward models, multiplayer games and Procedural Content Generation.
-
-### <a href="/projects/ptsp/">Physical Travelling Salesman Problem (PTSP)</a>
-
-An early benchmark for real-time planning that supported research on MCTS with macro-actions, multi-objective MCTS and procedurally generated evaluation environments.
-
-<div style="text-align:right">
-<a href="#top">↑ Back to top</a>
-</div>
-
 
 ---
 
