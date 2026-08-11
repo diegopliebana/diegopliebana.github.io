@@ -145,6 +145,8 @@ My research has centred on Artificial Intelligence methods that make decisions b
 - <strong>Tabletop Games:</strong> planning, Multi-Agent Reinforcement Learning, game characterisation, automated playtesting and AI-assisted game design.
 - <strong>AI and Game Design:</strong> quantitative analysis, balancing, digital twins, quality-diversity methods and Large Language Models.
 
+See a <a href="/projects/">selection of research projects</a>.
+
 ---
 
 <h1 id="leadership">Selected Research Leadership and Service</h1>
