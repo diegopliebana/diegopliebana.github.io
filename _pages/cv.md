@@ -28,6 +28,9 @@ toc:
   - title: Research Leadership & Service
     id: leadership
 
+  - title: Selected Talks
+    id: talks
+
   - title: Research Funding & Collaboration
     id: funding
 
@@ -184,6 +187,7 @@ I have held a range of organisational and editorial roles within the Game AI res
 - <strong>Program Chair</strong>, IEEE Conference on Games, 2022.
 - <strong>Program Chair</strong>, IEEE Conference on Games, 2026.
 - <strong>Associate Editor</strong>, IEEE Transactions on Games.
+- <strong>Associate Editor</strong>, ACM Games: Research and Practice.
 - Recipient of the <strong>2023 Outstanding Associate Editor Award</strong> from the IEEE Computational Intelligence Society.
 - Co-organiser of <strong>Dagstuhl Seminar 22251: Computational Creativity for Game Development</strong>, 2022.
 - Co-organiser of <strong>Dagstuhl Seminar 24261: Computational Creativity for Game Development</strong>, 2024.
@@ -196,6 +200,17 @@ I regularly review for conferences and journals in Artificial Intelligence, comp
 <a href="#top">↑ Back to top</a>
 </div>
 
+---
+
+<h1 id="talks">Selected Talks</h1>
+
+- D. Perez, R. Gaina. <strong>Empowering Game Designers with Automatic Playtesting</strong>, in <a href="https://www.aiandgamesconference.com/">AI in Games Conference</a>, London, UK, 2024.
+- D. Perez. <strong>AI for Tabletop Games</strong>, in <a href="https://aingames.cn/CIG2024/">Workshop on Computational Intelligence and Games</a>, Shenzhen, China, 2024.
+- D. Perez. <strong>Bringing AI to the table: helping designers make better board games</strong>, in <a href="https://pintofscience.co.uk/event/the-science-of-prediction">Pint of Science</a>, London, UK, 2023.
+
+<div style="text-align:right">
+<a href="#top">↑ Back to top</a>
+</div>
 
 ---
 
@@ -222,19 +237,18 @@ My research collaborations have included academic and industrial partners workin
 
 <h1 id="supervision">Supervision and Teaching</h1>
 
-I have supervised doctoral researchers working across planning, Reinforcement Learning, Game AI, tabletop games, Large Language Models and automated game analysis.
+I have supervised doctoral researchers working across planning, Reinforcement Learning, Game AI, tabletop games, Large Language Models and automated game analysis. By the end of my time at QMUL I had acted as primary supervisor for nine PhD researchers, including five completed PhDs, and co-supervisor for a further six researchers. This research resulted in a substantial body of first-authored publications by the doctoral researchers.
 
-By the end of my time at QMUL I had acted as primary supervisor for nine PhD researchers, including five completed PhDs, and co-supervisor for a further six researchers. This research resulted in a substantial body of first-authored publications by the doctoral researchers.
+ - <strong>Raluca D. Gaina</strong>, <i>Rolling Horizon Evolutionary Algorithms in General Video Game Playing</i>. Viva Date: 25 March 2021. [<a href="https://qmro.qmul.ac.uk/xmlui/handle/123456789/82094">Deposit</a> / <a href="https://rdgain.github.io/assets/pdf/papers/gaina2021phd.pdf">pdf</a>]
+  - <strong>Cristina Guerrero-Romero</strong>, <i>Beyond Playing to Win: Elicit General Gameplaying Agents with Distinct Behaviours to Assist Game Development and Testing</i>. Viva Date: 22 March 2022. [<a href="https://qmro.qmul.ac.uk/xmlui/handle/123456789/83285">Deposit</a> / <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/83285/CGR-thesis-vFinal-revised.pdf?sequence=2&isAllowed=y">pdf</a>]
+  - <strong>Ercument Ilhan</strong>, <i>Accelerating Deep Reinforcement Learning via Action Advising</i>. Viva Date: 28 March 2022. [<a href="https://qmro.qmul.ac.uk/xmlui/handle/123456789/83282">Deposit</a> / <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/83282/ErcumentIlhan_Thesis.pdf?sequence=2&isAllowed=y">pdf</a>]
+  - <strong>Cristiana Pacheco</strong>, <i>Believability Assessment and Modelling in Video Games</i>. Viva Date: 15 June 2023. [<a href="https://qmro.qmul.ac.uk/xmlui/handle/123456789/95480">Deposit</a> / <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/95480/Thesis__Cristiana_Andrade_Pacheco.pdf?sequence=2&isAllowed=y">pdf</a>]
+  <li> <b>Martin Balla</b>, <i>Multi task Reinforcement Learning for Adaptive Agents</i>. Viva Date: 4 July 2024. [<a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/107474">Deposit</a> / <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/107474/Martin-Balla-PhD-thesis-final.pdf?sequence=2&isAllowed=y">pdf</a>]
+  <li> <b>Linjie Xu</b>, <i>Efficient Data Usage for Planning and Reinforcement Learning</i>. Viva Date: 30 May 2025. [<a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/109791">Deposit</a> / <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/109791/Ethan_Linjie_Xu_Dissetation_post_viva__Redacted_.pdf?sequence=5">pdf</a>]
+  <li> <b>Marko Tot</b>, <i>Search, Learning and World Models: Strengths, Limitations and Ways Forward</i>. Viva Date: 26 March 2025. [Pending deposit]
 
-I have also supervised more than sixty undergraduate and postgraduate research projects and taught subjects including:
 
-- Artificial Intelligence for Games
-- Game AI
-- Multi-platform Game Development
-- Advanced Game Development
-- AI for Game Design
-
-At Queen Mary University of London I also served as Programme Director of the MSc Artificial Intelligence.
+I have also supervised more than sixty undergraduate and postgraduate research projects on Artificial Intelligence for Games and Game Development.
 
 <div style="text-align:right">
 <a href="#top">↑ Back to top</a>
