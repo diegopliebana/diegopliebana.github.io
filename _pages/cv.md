@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CV
+title: Diego Perez Liebana
 permalink: /cv/
-description: Academic CV.
+description: Distinguished Researcher, Universidad Carlos III de Madrid
 nav: true
 nav_order: 5
 
@@ -52,10 +52,6 @@ toc:
 ---
 
 <div id="top"></div>
-
-# Diego Perez-Liebana
-
-<strong>Distinguished Researcher, Universidad Carlos III de Madrid</strong>
 
 Artificial Intelligence · Game AI · Statistical Forward Planning · Monte Carlo Tree Search · Reinforcement Learning · Tabletop Games
 
