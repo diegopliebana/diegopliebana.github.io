@@ -220,11 +220,11 @@ I have secured and contributed to research funding from UK research councils, in
 
 Selected activities include:
 
-- <strong>EPSRC New Investigator Award — Abstract Forward Models for Modern Games</strong>, Principal Investigator, approximately £305k.
-- <strong>Innovate UK — Empowering Tabletop Game Designers with AI</strong>, approximately £50k.
-- Research and PhD funding from <strong>Microsoft Research</strong>, <strong>Creative Assembly</strong>, Queen Mary Innovation and other industrial partners.
-- Co-Investigator on the <strong>Intelligent Games and Games Intelligence (IGGI) Centre for Doctoral Training</strong>.
-- Co-Investigator on <strong>ARCIDUCA</strong>, applying conversational agents and games to reference and coreference research.
+- <strong>EPSRC New Investigator Award — Abstract Forward Models for Modern Games</strong>, Principal Investigator (~ £305,000).
+- <strong>Innovate UK — Empowering Tabletop Game Designers with AI</strong> (~ £50,000).
+- Research and PhD funding from <strong>Microsoft Research</strong>, <strong>Creative Assembly</strong>, Queen Mary Innovation and other industrial partners (totalling ~ £137,000)
+- Co-Investigator on the EPSRC <strong>Intelligent Games and Games Intelligence (IGGI) Centre for Doctoral Training</strong>  (~ £3,000,000).
+- Co-Investigator on the EPSRC <strong>ARCIDUCA</strong>, applying conversational agents and games to reference and coreference research  (~ £985,000).
 
 My research collaborations have included academic and industrial partners working across Game AI, machine learning, game development and computational creativity.
 
