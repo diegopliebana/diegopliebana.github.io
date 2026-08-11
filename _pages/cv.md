@@ -286,7 +286,8 @@ This work grew directly from research conducted with the <a href="/projects/tag/
 <h1 id="recognition">Selected Recognition</h1>
 
 - Outstanding Associate Editor Award, IEEE Computational Intelligence Society, 2023.
-- Best Paper Award, IEEE Conference on Computational Intelligence and Games, 2012.
+- <a href="/assets/pdf/awards/AIIDE2019_BestArtifactAward.jpg">Best Artifact Award</a> for <strong>Analysis of Statistical Forward Planning Methods in Pommerman</strong>, in AIIDE, 2019.
+- <a href="/assets/pdf/awards/BestPaperCIG2012.pdf">Best Paper Award</a>, IEEE Conference on Computational Intelligence and Games, 2012.
 - Best Paper Award, EvoStar, 2011.
 - BCS SGAI Intelligence Prize, 2012.
 
