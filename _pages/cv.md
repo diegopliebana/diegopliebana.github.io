@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Diego Perez Liebana
+title: CV
 permalink: /cv/
-description: Distinguished Researcher, Universidad Carlos III de Madrid
+description: Diego Pérez Liébana, Distinguished Researcher, Universidad Carlos III de Madrid
 nav: true
 nav_order: 5
 
@@ -251,7 +251,7 @@ This work grew directly from research conducted with the <a href="/projects/tag/
 
 <h1 id="recognition">Selected Recognition</h1>
 
-- Outstanding Associate Editor Award, IEEE Computational Intelligence Society, 2023.
+- <a href="/assets/pdf/awards/OutstandingAE-IEEETOG2023.jpg">Outstanding Associate Editor Award</a>, IEEE Computational Intelligence Society, IEEE Transaction on Games 2023.
 - <a href="/assets/pdf/awards/AIIDE2019_BestArtifactAward.jpg">Best Artifact Award</a> for <strong>Analysis of Statistical Forward Planning Methods in Pommerman</strong>, in AIIDE, 2019.
 - <a href="/assets/pdf/awards/BestPaperCIG2012.pdf">Best Paper Award</a>, IEEE Conference on Computational Intelligence and Games, 2012.
 - Best Paper Award, EvoStar, 2011.
