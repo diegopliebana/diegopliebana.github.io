@@ -2,7 +2,7 @@
 layout: page
 title: CV
 permalink: /cv/
-description: Diego Pérez Liébana, Distinguished Researcher, Universidad Carlos III de Madrid
+description: Diego Pérez Liébana, Visiting Professor and Researcher, Universidad Carlos III of Madrid
 nav: true
 nav_order: 5
 
@@ -64,7 +64,7 @@ Artificial Intelligence · Game AI · Statistical Forward Planning · Monte Carl
 
 <h1 id="profile">Profile</h1>
 
-I am a Distinguished Researcher at <a href="https://www.uc3m.es/">Universidad Carlos III de Madrid (UC3M)</a>. My research focuses on Artificial Intelligence for games, with particular interests in <strong>Statistical Forward Planning</strong>, <strong>Monte Carlo Tree Search (MCTS)</strong>, <strong>Rolling Horizon Evolutionary Algorithms</strong>, Reinforcement Learning, General Game Playing, and Artificial Intelligence for modern tabletop games.
+I am a Visiting Professor and Researcher at <a href="https://www.uc3m.es/">Universidad Carlos III de Madrid (UC3M)</a>. My research focuses on Artificial Intelligence for games, with particular interests in <strong>Statistical Forward Planning</strong>, <strong>Monte Carlo Tree Search (MCTS)</strong>, <strong>Rolling Horizon Evolutionary Algorithms</strong>, Reinforcement Learning, General Game Playing, and Artificial Intelligence for modern tabletop games.
 
 My work investigates decision making in complex environments and how forward models, search, abstraction and learning can be used to build more capable and general agents. More recently, this research has expanded towards automated playtesting, quantitative game analysis, AI-assisted game design and Large Language Models.
 
