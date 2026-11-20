@@ -76,7 +76,7 @@ I have published more than 150 research papers across Game AI, computational int
 
 ### Universidad Carlos III de Madrid
 
-<strong>Distinguished Researcher</strong>  
+<strong>Visiting Professor and Researcher (ATRAE UC3M)</strong>  
 July 2026–present  
 Madrid, Spain
 
